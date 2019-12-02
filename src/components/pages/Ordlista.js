@@ -30,7 +30,7 @@ class Ordlista extends Component {
                   className="list-group-item list-group-item-action"
                   href="#list-item-3"
                 >
-                  Globala temperaturer
+                  Globala temperaturer Kine
                 </a>
                 <a
                   className="list-group-item list-group-item-action"
