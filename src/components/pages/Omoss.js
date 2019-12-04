@@ -4,11 +4,14 @@ import "bootstrap/dist/css/bootstrap.min.css";
 class Omoss extends Component {
     render() {
       return (
+
+        
       <div className="container">
+      <h1> Om oss </h1>
         <div className="row">
           <div className="omOss-sida col-sm">
             <div>
-                <h4>Om oss</h4>
+                <h4>Smartare utbildning</h4>
                 <p>
                   Smartare Utbildning är ett företag med klimat i fokus. Vår
                   mission är att bidra till ökad kunskap om miljön och
@@ -25,7 +28,7 @@ class Omoss extends Component {
             <h4>Kontakt</h4>
             <p>
               Vi brinner för klimatet och för att få dela med oss av vår
-              kunskap. Tveka inte på att höra av dig till oss på XXXX. <br />
+              kunskap. Tveka inte på att höra av dig till oss på Smartare Utbildning. <br />
               <br />
               Smartare Utbildning
               <br />

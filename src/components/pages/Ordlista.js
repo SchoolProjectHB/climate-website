@@ -9,6 +9,7 @@ class Ordlista extends Component {
   render() {
     return (
       <div className="container">
+      <h1>Ordlista</h1>
         <div className="row">
           <div className="col-sm">
             <div>

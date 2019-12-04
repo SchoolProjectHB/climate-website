@@ -9,9 +9,10 @@ function Navbar() {
   <img src={logo} alt="logo" style={{ width: '90px' }}/>
   </Link>
 
+
   <div className="collapse navbar-collapse" id="navbarSupportedContent">
     <ul className="navbar-nav mr-auto">
-      <li className="nav-item active">
+      <li className="nav-item">
         <Link className="nav-link text-black text-uppercase ml-5" to="/">Klimatförändringar <span className="sr-only">(current)</span></Link>
       </li>
       <li className="nav-item">
