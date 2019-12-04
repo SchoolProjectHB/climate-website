@@ -26,17 +26,15 @@ class Omoss extends Component {
 
           <div className="omOss-sida col-sm">
             <h4>Kontakt</h4>
-            <p>
-              Vi brinner för klimatet och för att få dela med oss av vår
-              kunskap. Tveka inte på att höra av dig till oss på Smartare Utbildning. <br />
-              <br />
-              Smartare Utbildning
-              <br />
-              +46700000000
-              <br />
-              kontakt@smartareutbildning.se
-              <br />
-            </p>
+            <div className="omOss-list">
+            <ul>
+              <li>Vi brinner för klimatet och för att få dela med oss av vår
+              kunskap. Tveka inte på att höra av dig till oss på Smartare Utbildning. </li>
+              <li>Smartare Utbildning</li>
+              <li>+46700000000</li>
+              <li>kontakt@smartareutbildning.se</li>
+            </ul>
+            </div>
           </div>
         </div>
 
