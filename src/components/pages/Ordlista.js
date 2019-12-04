@@ -30,7 +30,7 @@ class Ordlista extends Component {
                   className="list-group-item list-group-item-action"
                   href="#list-item-3"
                 >
-                  Globala temperaturer Kine
+                  Globala temperaturer
                 </a>
                 <a
                   className="list-group-item list-group-item-action"
@@ -48,13 +48,31 @@ class Ordlista extends Component {
                   className="list-group-item list-group-item-action"
                   href="#list-item-6"
                 >
-                  Item 4
+                  Gas Fuel
                 </a>
                 <a
                   className="list-group-item list-group-item-action"
                   href="#list-item-7"
                 >
-                  Item 4
+                  Liquid Fuel
+                </a>
+                <a
+                  className="list-group-item list-group-item-action"
+                  href="#list-item-8"
+                >
+                  Solid Fuel
+                </a>
+                <a
+                  className="list-group-item list-group-item-action"
+                  href="#list-item-9"
+                >
+                  Cement
+                </a>
+                <a
+                  className="list-group-item list-group-item-action"
+                  href="#list-item-10"
+                >
+                  Gas Flaring
                 </a>
               </div>
 
@@ -107,10 +125,30 @@ class Ordlista extends Component {
               att fortsätta stiga. Detta då halten koldioxid i atmosfären redan
               är så hög.
             </p>
-            <h4 id="list-item-6">Item 4</h4>
-            <p>...</p>
-            <h4 id="list-item-7">Item 4</h4>
-            <p>...</p>
+            <h4 id="list-item-6">Gas Fuel</h4>
+            <p>är ett samlingsnamn för bränslen som vid användningen är i gasform.
+               Till dessa hör till exempel biogas, naturgas, gasol och vätgas
+            </p>
+            <h4 id="list-item-7">Liquid Fuel</h4>
+            <p>De flesta flytande bränslen i ingår i kategorin fossila bränslen. 
+              Exempel på flytande bränslen är, bensin, etanol och biodiesel.
+            </p>
+            <h4 id="list-item-8">Solid Fuel</h4>
+            <p>Fast bränsle är olika former av fast material som kan brännas för 
+              att frigöra energi, vilket ger värme och ljus genom förbränningsprocessen. 
+              Vanliga exempel på fasta bränslen är trä, kol och träpellets.
+            </p>
+            <h4 id="list-item-9">Cement</h4>
+            <p>Cementindustrin är en av de två största producenterna av koldioxid 
+              (CO 2 ) och skapar upp till 8% av de globala konstgjorda utsläppen 
+              av denna gas, varav 50% kommer från den kemiska processen och 40% 
+              från brinnande bränsle.
+            </p>
+            <h4 id="list-item-10">Gas Flaring</h4>
+            <p>Gasfackling är en industriprocess som innebär att bränna överskottsgas 
+              på oljefält, i raffinaderier eller vid fabriker. Bränningen sker oftast 
+              enbart för att elda upp gasen. Värmeenergin tas inte tillvara.
+            </p>
           </div>
         </div>
       </div>
