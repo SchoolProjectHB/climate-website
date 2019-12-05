@@ -30,7 +30,7 @@ class Klimatforandringar extends Component {
           <select className="ui dropdown"onChange={(e) => this.setState({ selectedCardType: e.target.value })}>
          <input type="hidden" name="Kategori">
            </input>
-           <option>Välj kategori...</option>
+           <option></option>
             <option value="CardA">Fossila Bränslen</option>
             <option value="CardB">Globala Temperaturer</option>
             <option value="CardC">Glaciärer</option>
