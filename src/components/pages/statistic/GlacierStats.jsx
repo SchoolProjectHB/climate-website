@@ -16,13 +16,15 @@ if(co2 === undefined) return <p>There is no data </p>;
 
 
   const dataChartGlacier = [
-    {name: '1950', value1: co2["Gas Fuel"],value2: co2["Solid Fuel"],value3: co2["Liquid Fuel"]},
-    {name: '1960', value1: co2["Gas Fuel"],value2: co2["Solid Fuel"],value3: co2["Liquid Fuel"]},
-    {name: '1970', value1: co2["Gas Fuel"],value2: co2["Solid Fuel"],value3: co2["Liquid Fuel"]},
-    {name: '1980', value1: co2["Gas Fuel"],value2: co2["Solid Fuel"],value3: co2["Liquid Fuel"]},
-    {name: '1990', value1: co2["Gas Fuel"],value2: co2["Solid Fuel"],value3: co2["Liquid Fuel"]},
-    {name: '2000', value1: co2["Gas Fuel"],value2: co2["Solid Fuel"],value3: co2["Liquid Fuel"]},
-    {name: '2010', value1: co2["Gas Fuel"],value2: co2["Solid Fuel"],value3: co2["Liquid Fuel"]},
+    {name: '1945', value1: co2["Mean-cumulative-mass-balance"]},
+    {name: '1947', value1: co2["Mean cumulative mass balance"]},
+    {name: '1949', value1: co2["Mean cumulative mass balance"]},
+    {name: '1951', value1: co2["Mean cumulative mass balance"]},
+    {name: '1953', value1: co2["Mean cumulative mass balance"]},
+    {name: '1955', value1: co2["Mean cumulative mass balance"]},
+    {name: '1957', value1: co2["Mean cumulative mass balance"]},
+    {name: '1959', value1: co2["Mean cumulative mass balance"]},
+    {name: '1961', value1: co2["Mean cumulative mass balance"]}
 ];
 
 //const COLORS = ['#0088FE', '#00C49F', '#FFBB28', '#FF8042'];
@@ -39,8 +41,6 @@ if(co2 === undefined) return <p>There is no data </p>;
        <Tooltip/>
        <Legend />
        <Line type="monotone" dataKey="value1" stroke="#8884d8" activeDot={{r: 8}}/>
-       <Line type="monotone" dataKey="value2" stroke="#82ca9d" />
-       <Line type="monotone" dataKey="value3" stroke="#82ca6d" />
        
        
       </LineChart>

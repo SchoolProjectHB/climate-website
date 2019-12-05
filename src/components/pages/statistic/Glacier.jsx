@@ -9,14 +9,14 @@ class App extends Component{
   state = {
     CO2Emission: [],
     //searchedYear:[],
-    indexYear: 250,
+    //indexYear: 0,
     //yearFrom: 0,
     //yearTo: 0
    
   };
 
     async componentDidMount() {
-    const url = "https://my.api.mockaroo.com/co2.json?key=8eb9e6f0";
+    const url = "https://my.api.mockaroo.com/glaciersize.json?key=8eb9e6f0";
     const response = await fetch(url);
     const data = await response.json();
     this.setState({ CO2Emission: data});
@@ -30,7 +30,6 @@ render() {
     <div className="App">
       <h1>Statistik över de fossila utsläppen</h1>
       <MyBarChartGlacier CO2Emission={this.state.CO2Emission[this.state.indexYear]}
-      onYearFilter={this.handleYearFilter}
       ></MyBarChartGlacier>
       </div>  
 

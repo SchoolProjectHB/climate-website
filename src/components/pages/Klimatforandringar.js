@@ -27,7 +27,7 @@ class Klimatforandringar extends Component {
     renderCardSelector() {
       return (
         
-          <select className="ui selection dropdown"onChange={(e) => this.setState({ selectedCardType: e.target.value })}>
+          <select className="ui dropdown"onChange={(e) => this.setState({ selectedCardType: e.target.value })}>
          <input type="hidden" name="Kategori">
            </input>
            <option></option>
