@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import MyBarChartGlobal from "./FossilStats";
+import MyBarChartGlobal from "./GlobalStats";
 import 'semantic-ui-css/semantic.min.css'
 
 //import './cardA.css';
@@ -7,7 +7,7 @@ import 'semantic-ui-css/semantic.min.css'
 class App extends Component{
   
   state = {
-    CO2Emission: [],
+    globalEmission: [],
     //searchedYear:[],
     indexYear: 250,
     //yearFrom: 0,
@@ -19,7 +19,7 @@ class App extends Component{
     const url = "https://my.api.mockaroo.com/temp.json?key=8eb9e6f0";
     const response = await fetch(url);
     const data = await response.json();
-    this.setState({ CO2Emission: data});
+    this.setState({ globalEmission: data});
   }
 
 
@@ -29,7 +29,7 @@ render() {
   
     <div className="App">
       <h1>Statistik över de globala temperaturerna</h1>
-      <MyBarChartGlobal CO2Emission={this.state.CO2Emission[this.state.indexYear]}
+      <MyBarChartGlobal globalEmission={this.state.globalEmission[this.state.indexYear]}
       onYearFilter={this.handleYearFilter}
       ></MyBarChartGlobal>
       </div>  

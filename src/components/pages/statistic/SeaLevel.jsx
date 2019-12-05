@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import MyBarChartSeaLevel from "./FossilStats";
+import MyBarChartSeaLevel from "./SeaLevelStats";
 import 'semantic-ui-css/semantic.min.css'
 
 //import './cardA.css';
@@ -30,7 +30,6 @@ render() {
     <div className="App">
       <h1>Statistik över de globala temperaturerna</h1>
       <MyBarChartSeaLevel CO2Emission={this.state.CO2Emission[this.state.indexYear]}
-      onYearFilter={this.handleYearFilter}
       ></MyBarChartSeaLevel>
       </div>  
 

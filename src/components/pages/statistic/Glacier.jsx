@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import MyBarChartGlacier from "./FossilStats";
+import MyBarChartGlacier from "./GlacierStats";
 import 'semantic-ui-css/semantic.min.css'
 
 //import './cardA.css';
