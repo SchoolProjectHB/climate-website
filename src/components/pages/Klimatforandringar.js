@@ -32,7 +32,7 @@ class Klimatforandringar extends Component {
            </input>
            <option></option>
             <option value="CardA">Fossila Bränslen</option>
-            <option value="CardB">Globala Tempraturen</option>
+            <option value="CardB">Globala Temperaturer</option>
             <option value="CardC">Glaciärer</option>
             <option value="CardD">Havsnivåer</option>
           </select>
