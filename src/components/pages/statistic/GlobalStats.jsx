@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-//import YearFilter from "./FilterYear";
 import {
   LineChart, Line, XAxis, YAxis, CartesianGrid, Tooltip, Legend,
 } from 'recharts';
@@ -10,14 +9,17 @@ class MyBarChartGlobal extends Component {
 
 //};
     render() { 
-let co2 = this.props.CO2Emission; 
-if(co2 === undefined) return <p>There is no data </p>;
+let global = this.props.globalEmission; 
+if(global === undefined) return <p>There is no data </p>;
 
 
 
 
     const dataChartGlobal = [
-        {name: 'Mean', value: co2["Mean"], uv: co2["Mean"]},
+        {name: 'Year', value: global["Mean"], uv: global["Mean"]},
+        {name: 'Year', value: global["Mean"], uv: global["Mean"]},
+        {name: 'Year', value: global["Mean"], uv: global["Mean"]},
+        {name: 'Year', value: global["Mean"], uv: global["Mean"]}
     ];
 
 //const COLORS = ['#0088FE', '#00C49F', '#FFBB28', '#FF8042'];
@@ -33,8 +35,8 @@ if(co2 === undefined) return <p>There is no data </p>;
        <CartesianGrid strokeDasharray="3 3"/>
        <Tooltip/>
        <Legend />
-       <Line type="monotone" dataKey="value1" stroke="#8884d8" activeDot={{r: 8}}/>
-       <Line type="monotone" dataKey="value2" stroke="#82ca9d" />
+       <Line type="monotone" dataKey="value" stroke="#8884d8" activeDot={{r: 8}}/>
+       <Line type="monotone" dataKey="uv" stroke="#82ca9d" />
        <Line type="monotone" dataKey="value3" stroke="#82ca6d" />
        
        

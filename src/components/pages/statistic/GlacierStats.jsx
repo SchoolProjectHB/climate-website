@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-//import YearFilter from "./FilterYear";
 import {
   LineChart, Line, XAxis, YAxis, CartesianGrid, Tooltip, Legend,
 } from 'recharts';
@@ -17,14 +16,6 @@ if(co2 === undefined) return <p>There is no data </p>;
 
   const dataChartGlacier = [
     {name: '1945', value1: co2["Mean-cumulative-mass-balance"]},
-    {name: '1947', value1: co2["Mean cumulative mass balance"]},
-    {name: '1949', value1: co2["Mean cumulative mass balance"]},
-    {name: '1951', value1: co2["Mean cumulative mass balance"]},
-    {name: '1953', value1: co2["Mean cumulative mass balance"]},
-    {name: '1955', value1: co2["Mean cumulative mass balance"]},
-    {name: '1957', value1: co2["Mean cumulative mass balance"]},
-    {name: '1959', value1: co2["Mean cumulative mass balance"]},
-    {name: '1961', value1: co2["Mean cumulative mass balance"]}
 ];
 
 //const COLORS = ['#0088FE', '#00C49F', '#FFBB28', '#FF8042'];
