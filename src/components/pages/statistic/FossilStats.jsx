@@ -26,7 +26,7 @@ if(co2 === undefined) return <p>There is no data </p>;
 
             margin={{top: 5, right: 30, left: 20, bottom: 5}}>
        <XAxis dataKey="Year"/>
-       <YAxis/>
+       <YAxis name="co2"/>
        <CartesianGrid strokeDasharray="3 3"/>
        <Tooltip/>
        <Legend />

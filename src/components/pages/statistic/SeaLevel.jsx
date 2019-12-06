@@ -16,7 +16,7 @@ class App extends Component{
   };
 
     async componentDidMount() {
-    const url = "https://my.api.mockaroo.com/temp.json?key=8eb9e6f0";
+    const url = "https://my.api.mockaroo.com/sealevel.json?key=8eb9e6f0";
     const response = await fetch(url);
     const data = await response.json();
     this.setState({ CO2Emission: data});
@@ -28,7 +28,7 @@ render() {
   return (
   
     <div className="App">
-      <h1>Statistik över de globala temperaturerna</h1>
+      <h1>Statistik över havsnivåerna</h1>
       <MyBarChartSeaLevel CO2Emission={this.state.CO2Emission}
       ></MyBarChartSeaLevel>
       </div>  
