@@ -29,7 +29,7 @@ render() {
   
     <div className="App">
       <h1>Statistik över de globala temperaturerna</h1>
-      <MyBarChartGlobal globalEmission={this.state.globalEmission[this.state.indexYear]}
+      <MyBarChartGlobal globalEmission={this.state.globalEmission}
       onYearFilter={this.handleYearFilter}
       ></MyBarChartGlobal>
       </div>  
