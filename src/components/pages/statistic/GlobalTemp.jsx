@@ -19,7 +19,8 @@ class App extends Component{
     const url = "https://my.api.mockaroo.com/temp.json?key=8eb9e6f0";
     const response = await fetch(url);
     const data = await response.json();
-    this.setState({ globalEmission: data});
+    this.setState({ globalEmission: data.sort((a, b)=>
+    a.Year > b.Year ? 1 : b.Year > a.Year ? -1 : 0)});
   }
 
 
