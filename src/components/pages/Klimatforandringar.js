@@ -28,9 +28,9 @@ class Klimatforandringar extends Component {
       return (
         
           <select className="ui dropdown"onChange={(e) => this.setState({ selectedCardType: e.target.value })}>
-         <input type="hidden" name="Kategori">
+         <input type="active" name="Kategori">
            </input>
-           <option></option>
+           <option value="0">Välj en kategori</option>
             <option value="CardA">Fossila Bränslen</option>
             <option value="CardB">Globala Temperaturer</option>
             <option value="CardC">Glaciärer</option>
@@ -42,7 +42,8 @@ class Klimatforandringar extends Component {
     renderSelectedCard(selectedCardType) {
         if (!selectedCardType)
           return <AngryJoe text="Välj en kategori" />;
-    
+    if(selectedCardType==="0")
+    return; 
         const Card = statistic[selectedCardType];
     
         return <Card />;

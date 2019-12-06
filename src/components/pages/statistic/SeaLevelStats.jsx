@@ -13,9 +13,6 @@ class MyBarChartSeaLevel extends Component {
 let co2 = this.props.CO2Emission; 
 if(co2 === undefined) return <p>There is no data </p>;
 
-
-
-
     const dataChartSeaLevel = [
         {name: 'Mean', value: co2["Mean"], uv: co2["Mean"]},
     ];
@@ -33,9 +30,7 @@ if(co2 === undefined) return <p>There is no data </p>;
        <CartesianGrid strokeDasharray="3 3"/>
        <Tooltip/>
        <Legend />
-       <Line type="monotone" dataKey="value1" stroke="#8884d8" activeDot={{r: 8}}/>
-       <Line type="monotone" dataKey="value2" stroke="#82ca9d" />
-       <Line type="monotone" dataKey="value3" stroke="#82ca6d" />
+       <Line type="monotone" dataKey="value" stroke="#8884d8" activeDot={{r: 8}}/>
        
        
       </LineChart>
