@@ -30,10 +30,10 @@ if(co2 === undefined) return <p>There is no data </p>;
        <CartesianGrid strokeDasharray="3 3"/>
        <Tooltip/>
        <Legend />
-       <Line type="monotone" dataKey="Gas Fuel" name="Gasbränslen" stroke="#8884d8" activeDot={{r: 8}}/>
-       <Line type="monotone" dataKey="Liquid Fuel" stroke="#82ca9d" />
-       <Line type="monotone" dataKey="Solid Fuel" stroke="#82ca6d" />
-       <Line type="monotone" dataKey="Cement" stroke="#82ca1d" />
+       <Line type="monotone" dataKey="Gas Fuel" name="Gasbränslen" stroke="#3f6962" activeDot={{r: 8}}/>
+       <Line type="monotone" dataKey="Liquid Fuel" stroke="#849c4e" />
+       <Line type="monotone" dataKey="Solid Fuel" stroke="#e1903c" />
+       <Line type="monotone" dataKey="Cement" stroke="#f7de34" />
        
        
       </LineChart>
