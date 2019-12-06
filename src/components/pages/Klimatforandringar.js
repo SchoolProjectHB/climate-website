@@ -41,7 +41,7 @@ class Klimatforandringar extends Component {
 
     renderSelectedCard(selectedCardType) {
         if (!selectedCardType)
-          return <AngryJoe text="Välj en kategori" />;
+          return <AngryJoe text="Välj en kategorii" />;
     if(selectedCardType==="0")
     return; 
         const Card = statistic[selectedCardType];
