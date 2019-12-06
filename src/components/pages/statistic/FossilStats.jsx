@@ -11,7 +11,7 @@ class MyBarChart extends Component {
 //};
     render() { 
 let co2 = this.props.CO2Emission; 
-if(co2 === undefined) return <p>There is no data...!? </p>;
+if(co2 === undefined) return <p>There is no data...! </p>;
 
 
 
@@ -20,6 +20,7 @@ if(co2 === undefined) return <p>There is no data...!? </p>;
 
         return (  
           <React.Fragment>
+
 
             
 <LineChart width={1100} height={600} data={co2}
