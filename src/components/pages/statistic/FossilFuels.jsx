@@ -9,7 +9,7 @@ class App extends Component{
   state = {
     CO2Emission: [],
     //searchedYear:[],
-    indexYear: 250,
+    indexYear: 0,
     //yearFrom: 0,
     //yearTo: 0
    

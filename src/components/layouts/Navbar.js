@@ -8,8 +8,6 @@ function Navbar() {
   <Link className="navbar-brand ml-5" to="/">
   <img src={logo} alt="logo" style={{ width: '90px' }}/>
   </Link>
-
-
   <div className="collapse navbar-collapse" id="navbarSupportedContent">
     <ul className="navbar-nav mr-auto">
       <li className="nav-item">

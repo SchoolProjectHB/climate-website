@@ -22,7 +22,7 @@ if(co2 === undefined) return <p>There is no data...!? </p>;
           <React.Fragment>
 
             
-<LineChart width={900} height={600} data={co2}
+<LineChart width={1100} height={600} data={co2}
 
             margin={{top: 5, right: 30, left: 20, bottom: 5}}>
        <XAxis dataKey="Year"/>
@@ -30,10 +30,10 @@ if(co2 === undefined) return <p>There is no data...!? </p>;
        <CartesianGrid strokeDasharray="3 3"/>
        <Tooltip/>
        <Legend />
-       <Line type="monotone" dataKey="Gas Fuel" name="Gasbränslen" stroke="#3f6962" activeDot={{r: 8}}/>
-       <Line type="monotone" dataKey="Liquid Fuel" name="Flytande bränslen" stroke="#849c4e" />
-       <Line type="monotone" dataKey="Solid Fuel" name="Fasta bränslen" stroke="#e1903c" />
-       <Line type="monotone" dataKey="Cement" name="Cementen" stroke="#f7de34" />
+       <Line type="monotone" dataKey="Gas Fuel" name="Gasbränslen" stroke="#3f6962" activeDot={{r: 4}}/>
+       <Line type="monotone" dataKey="Liquid Fuel" stroke="#849c4e" activeDot={{r: 4}}/>
+       <Line type="monotone" dataKey="Solid Fuel" stroke="#e1903c" activeDot={{r: 4}}/>
+       <Line type="monotone" dataKey="Cement" stroke="#f7de34" activeDot={{r: 4}}/>
        
        
       </LineChart>

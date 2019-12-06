@@ -9,7 +9,7 @@ class App extends Component{
   state = {
     CO2Emission: [],
     //searchedYear:[],
-    indexYear: 250,
+    indexYear: 0,
     //yearFrom: 0,
     //yearTo: 0
    
@@ -29,7 +29,7 @@ render() {
   
     <div className="App">
       <h1>Statistik över de globala temperaturerna</h1>
-      <MyBarChartSeaLevel CO2Emission={this.state.CO2Emission[this.state.indexYear]}
+      <MyBarChartSeaLevel CO2Emission={this.state.CO2Emission}
       ></MyBarChartSeaLevel>
       </div>  
 
