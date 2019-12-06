@@ -18,14 +18,14 @@ if(global === undefined) return <p>There is no data </p>;
           <React.Fragment>
 
             
-<LineChart width={600} height={300} data={global}
+<LineChart width={1100} height={600} data={global}
             margin={{top: 5, right: 30, left: 20, bottom: 5}}>
        <XAxis dataKey="Year"/>
        <YAxis/>
        <CartesianGrid strokeDasharray="3 3"/>
        <Tooltip/>
        <Legend />
-       <Line type="monotone" dataKey="Mean" stroke="#8884d8" activeDot={{r: 8}}/>
+       <Line type="monotone" dataKey="Mean" name="Gensomsnittlig temperatur (C°)" stroke="#8884d8" activeDot={{r: 8}}/>
        
        
       </LineChart>

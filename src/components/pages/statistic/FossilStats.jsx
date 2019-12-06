@@ -31,9 +31,9 @@ if(co2 === undefined) return <p>There is no data...!? </p>;
        <Tooltip/>
        <Legend />
        <Line type="monotone" dataKey="Gas Fuel" name="Gasbränslen" stroke="#3f6962" activeDot={{r: 4}}/>
-       <Line type="monotone" dataKey="Liquid Fuel" stroke="#849c4e" activeDot={{r: 4}}/>
-       <Line type="monotone" dataKey="Solid Fuel" stroke="#e1903c" activeDot={{r: 4}}/>
-       <Line type="monotone" dataKey="Cement" stroke="#f7de34" activeDot={{r: 4}}/>
+       <Line type="monotone" dataKey="Liquid Fuel" name="Flytande bränslen" stroke="#849c4e" activeDot={{r: 4}}/>
+       <Line type="monotone" dataKey="Solid Fuel" name="Fasta bränslen" stroke="#e1903c" activeDot={{r: 4}}/>
+       <Line type="monotone" dataKey="Cement" name="Cement" stroke="#f7de34" activeDot={{r: 4}}/>
        
        
       </LineChart>
