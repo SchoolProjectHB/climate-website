@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/climate-website/static/css/main.ebbcafbc.chunk.css",
+    "main.js": "/climate-website/static/js/main.d6b6a2b7.chunk.js",
+    "main.js.map": "/climate-website/static/js/main.d6b6a2b7.chunk.js.map",
+    "runtime-main.js": "/climate-website/static/js/runtime-main.0629fcad.js",
+    "runtime-main.js.map": "/climate-website/static/js/runtime-main.0629fcad.js.map",
+    "static/css/2.38a758f9.chunk.css": "/climate-website/static/css/2.38a758f9.chunk.css",
+    "static/js/2.0be79958.chunk.js": "/climate-website/static/js/2.0be79958.chunk.js",
+    "static/js/2.0be79958.chunk.js.map": "/climate-website/static/js/2.0be79958.chunk.js.map",
+    "index.html": "/climate-website/index.html",
+    "precache-manifest.e0242ed7c54b4434db1fffcb7ff1b65f.js": "/climate-website/precache-manifest.e0242ed7c54b4434db1fffcb7ff1b65f.js",
+    "service-worker.js": "/climate-website/service-worker.js",
+    "static/css/2.38a758f9.chunk.css.map": "/climate-website/static/css/2.38a758f9.chunk.css.map",
+    "static/css/main.ebbcafbc.chunk.css.map": "/climate-website/static/css/main.ebbcafbc.chunk.css.map",
+    "static/media/semantic.min.css": "/climate-website/static/media/outline-icons.ef60a4f6.woff",
+    "static/media/logo.jpg": "/climate-website/static/media/logo.9f6a7476.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.0629fcad.js",
+    "static/css/2.38a758f9.chunk.css",
+    "static/js/2.0be79958.chunk.js",
+    "static/css/main.ebbcafbc.chunk.css",
+    "static/js/main.d6b6a2b7.chunk.js"
+  ]
+}
