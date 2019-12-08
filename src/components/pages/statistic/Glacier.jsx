@@ -28,7 +28,7 @@ render() {
   return (
   
     <div className="App">
-      <h1>Statistik över de fossila utsläppen</h1>
+      <h1>Statistik över glaciärernas storlek </h1>
       <MyBarChartGlacier CO2Emission={this.state.CO2Emission[this.state.indexYear]}
       ></MyBarChartGlacier>
       </div>  
