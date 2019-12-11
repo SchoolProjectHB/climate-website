@@ -1,15 +1,16 @@
 import React, { Component } from "react";
-import { Button } from "semantic-ui-react";
+// import { Button } from "semantic-ui-react";
 import startsida from "../images/startsida.png";
 
 class Start extends Component {
     render() {
       return (
-      // <button class="huge ui button">
-      //   Knapp
-      // </button>
-        
-        <img src={startsida}/>
+
+       <div class="containerStart">
+        <img src={startsida} width="100%"/>
+        <a href="/Klimatforandringar"><button class="huge ui button">Klicka här för att komma igång!</button></a>
+        </div>
+       
 
       );
     }

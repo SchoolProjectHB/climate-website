@@ -26,3 +26,26 @@
    margin: 6rem;
     
 }
+
+/* Container needed to position the button. Adjust the width as needed */
+.containerStart {
+    position: relative;
+  }
+  
+  
+  /* Style the button and place it in the middle of the container/image */
+  .containerStart .button {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    background-color: #555;
+    color: white;
+    font-size: 16px;
+    padding: 12px 24px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+  
