@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import { Button } from "semantic-ui-react";
-import startsida from "../components/startsida.png";
+// import startsida from "../components/startsida.png";
 
 class Start extends Component {
     render() {
