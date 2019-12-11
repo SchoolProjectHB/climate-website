@@ -7,11 +7,11 @@ function Navbar() {
 <nav className="navbar navbar-expand-lg navbar-light bg-light">
   <Link className="navbar-brand ml-5" to="/">
   <img src={logo} alt="logo" style={{ width: '90px' }}/>
-  </Link>
+  <span className="sr-only">(current)</span></Link>
   <div className="collapse navbar-collapse" id="navbarSupportedContent">
     <ul className="navbar-nav mr-auto">
       <li className="nav-item">
-        <Link className="nav-link text-black text-uppercase ml-5" to="/">Klimatförändringar <span className="sr-only">(current)</span></Link>
+        <Link className="nav-link text-black text-uppercase ml-5" to="/klimatforandringar">Klimatförändringar</Link>
       </li>
       <li className="nav-item">
         <Link className="nav-link text-black text-uppercase ml-5" to="/ordlista">Ordlista</Link>
