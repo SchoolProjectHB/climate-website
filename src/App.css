@@ -39,10 +39,20 @@ h3 {
   
   
   /* Style the button and place it in the middle of the container/image */
-  .containerStart .button {
+  .containerStart .test-knapp {
     position: absolute;
-    top: 50%;
+    top: 40%;
     left: 50%;
     transform: translate(-50%, -50%);
+    background-color: #278b8d;
+    padding: 15px;
+    border-radius: 5px;
+    color: #fff;
+    font-size: 16px;
   }
   
+  .test-knapp:hover {
+    background-color: #50a3a3;
+    color: #fff;
+    font-size: 17px;
+}

@@ -9,7 +9,7 @@ class Start extends Component {
 
        <div class="containerStart">
         <img src={startsida} width="100%"/>
-        <a href="/Klimatforandringar"><button class="huge ui button">Klicka här för att komma igång!</button></a>
+        <a href="/Klimatforandringar"><button className="test-knapp">Klicka här för att komma igång!</button></a>
         </div>
        
 

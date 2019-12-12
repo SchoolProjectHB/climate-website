@@ -1,10 +1,10 @@
 import React from 'react';
-import logo from '../../logo.jpg';
+import logo from '../../logo.png';
 import { Link } from 'react-router-dom';
 
 function Navbar() {
     return (
-<nav className="navbar navbar-expand-lg navbar-light bg-light">
+<nav className="navbar navbar-expand-lg navbar-light bg-white">
   <Link className="navbar-brand ml-5" to="/">
   <img src={logo} alt="logo" style={{ width: '90px' }}/>
   <span className="sr-only">(current)</span></Link>
