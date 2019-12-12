@@ -13,19 +13,14 @@ class MyBarChart extends Component {
 let co2 = this.props.CO2Emission; 
 if(co2 === undefined) return <p>There is no data...! </p>;
 
-
-
-
 //const COLORS = ['#0088FE', '#00C49F', '#FFBB28', '#FF8042'];
 
         return (  
           <React.Fragment>
-
-
             
-<LineChart width={1100} height={600} data={co2}
-
-            margin={{top: 5, right: 30, left: 20, bottom: 5}}>
+<LineChart width={1100} 
+height={600} data={co2}
+margin={{top: 5, right: 30, left: 20, bottom: 5}}>
        <XAxis dataKey="Year"/>
        <YAxis name="co2"/>
        <CartesianGrid strokeDasharray="3 3"/>

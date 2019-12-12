@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import MyBarChart from "./FossilStats";
+import MyBarChart from "/FossilStats";
 import 'semantic-ui-css/semantic.min.css'
 
 //import './cardA.css';
@@ -22,9 +22,7 @@ class App extends Component{
     this.setState({ CO2Emission: data});
   }
 
-
 render() {
-  
   return (
   
     <div className="App">
