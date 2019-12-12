@@ -16,9 +16,9 @@ function Navbar() {
       <li className="nav-item">
         <Link className="nav-link text-black text-uppercase ml-5" to="/ordlista">Ordlista</Link>
       </li>
-      <li className="nav-item">
+      {/* <li className="nav-item">
         <Link className="nav-link text-black text-uppercase ml-5" to="/omoss">Om oss</Link>
-      </li>
+      </li> */}
     </ul>
   </div>
 </nav>

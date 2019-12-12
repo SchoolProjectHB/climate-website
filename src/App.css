@@ -20,11 +20,16 @@
 
 .container{
     padding: 3rem;
+    line-height: 1.6;
 }
 
 .table-word{
    margin: 6rem;
     
+}
+
+h3 {
+    letter-spacing: 2px;
 }
 
 /* Container needed to position the button. Adjust the width as needed */
@@ -41,4 +46,3 @@
     transform: translate(-50%, -50%);
   }
   
- 
