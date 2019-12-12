@@ -9,14 +9,9 @@ class MyBarChartGlacier extends Component {
 
 //};
     render() { 
-let co2 = this.props.CO2Emission; 
-if(co2 === undefined) return <p>There is no data </p>;
+let dataChartGlacier = this.props.CO2Emission; 
+if(dataChartGlacier === undefined) return <p>There is no data </p>;
 
-
-
-  const dataChartGlacier = [
-    {name: '1945', value1: co2["Mean-cumulative-mass-balance"]},
-];
 
 //const COLORS = ['#0088FE', '#00C49F', '#FFBB28', '#FF8042'];
 
@@ -26,12 +21,12 @@ if(co2 === undefined) return <p>There is no data </p>;
             
 <LineChart width={1100} height={600} data={dataChartGlacier}
             margin={{top: 5, right: 30, left: 20, bottom: 5}}>
-       <XAxis dataKey="name"/>
+       <XAxis dataKey="Year"/>
        <YAxis/>
        <CartesianGrid strokeDasharray="3 3"/>
        <Tooltip/>
        <Legend />
-       <Line type="monotone" dataKey="value1" stroke="#8884d8" activeDot={{r: 8}}/>
+       <Line type="monotone" dataKey="Mean cumulative mass balance" name="Glaciärer" stroke="#8884d8" activeDot={{r: 8}}/>
        
        
       </LineChart>

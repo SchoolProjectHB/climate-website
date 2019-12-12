@@ -29,7 +29,7 @@ render() {
   
     <div className="App">
       <h1>Statistik över glaciärernas storlek </h1>
-      <MyBarChartGlacier CO2Emission={this.state.CO2Emission[this.state.indexYear]}
+      <MyBarChartGlacier CO2Emission={this.state.CO2Emission}
       ></MyBarChartGlacier>
       </div>  
 
