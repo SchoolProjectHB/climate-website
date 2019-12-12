@@ -1,5 +1,10 @@
 import React, { Component } from 'react';
-import 'semantic-ui-css/semantic.min.css'
+import 'semantic-ui-css/semantic.min.css';
+import NavBar2 from './NavBar2';
+import { Switch, Route } from 'react-router-dom'; 
+import FossilFuel from './statistic/FossilFuels';
+
+
 //import ReactDOM from "react-dom";
 //import AngryJoe from '../layouts/AngryJoe'
 //import * as statistic from './statistic';
@@ -7,12 +12,14 @@ import 'semantic-ui-css/semantic.min.css'
 class Klimatforandringar extends Component { 
   render() {
     return (
-      <div class="Start">  
-        <a href="/FossilFuels"><button class="small ui button">Fossila Bränslen</button></a>
-        <a href="/GlobalTemp"><button class="small ui button">Globala Temperaturer</button></a>
-        <a href="/Glacier"><button class="small ui button">Glaciärer</button></a>
-        <a href="/SeaLevel"><button class="small ui button">Havsnivåer</button></a>
+      <div>
+      <NavBar2></NavBar2>
+      <Switch>
+           <Route path="/statistic/FossilFuels" component={FossilFuel}/>
+          
+        </Switch>
         </div>
+      
     );
   }
 }

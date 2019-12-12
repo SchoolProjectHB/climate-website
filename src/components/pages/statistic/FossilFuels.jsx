@@ -1,18 +1,10 @@
 import React, { Component } from 'react';
-import MyBarChart from "/FossilStats";
+import MyBarChart from "./FossilStats";
 import 'semantic-ui-css/semantic.min.css'
-
-//import './cardA.css';
-
 class App extends Component{
-  
   state = {
     CO2Emission: [],
-    //searchedYear:[],
-    indexYear: 0,
-    //yearFrom: 0,
-    //yearTo: 0
-   
+    indexYear: 0
   };
 
     async componentDidMount() {
@@ -31,8 +23,6 @@ render() {
       onYearFilter={this.handleYearFilter}
       ></MyBarChart>
       </div>  
-
-      
 );
   }}
 

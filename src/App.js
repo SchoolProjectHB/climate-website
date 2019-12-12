@@ -13,6 +13,7 @@ import Omoss from './components/pages/Omoss';
 
 
 
+
 class App extends Component {
   render () {
     return (
@@ -23,6 +24,7 @@ class App extends Component {
           <Route path="/klimatforandringar" component={Klimatforandringar}/>
           <Route path="/ordlista" component={Ordlista}/>
           <Route path="/omoss" component={Omoss}/>
+          
         </Switch>
         <Footer />
 
