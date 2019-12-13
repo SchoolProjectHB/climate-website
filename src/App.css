@@ -6,147 +6,150 @@
     --mainBlue: #007bff;
 } */
 
-
-.climateButton{
-    background: #d6e1e3;  
+.climateButton {
+  background: #d6e1e3;
 }
 
-h1{
-    text-align: center;
+h1 {
+  text-align: center;
 }
 
-.footer-middle{
-    background: #3d6962;
-    padding: 3rem;
+.footer-middle {
+  background: #3d6962;
+  padding: 3rem;
 }
 
- .box{
-    background: rgb(241, 245, 247);
-    margin-top: 4rem;
-    margin-left: 1rem;
-    margin-right: 1rem;
-    padding: 2rem;
-    border-radius: 0.5rem;
-} 
-
-.content{
-    background:#d6e1e3; 
+.box {
+  background: rgb(241, 245, 247);
+  margin-top: 4rem;
+  margin-left: 1rem;
+  margin-right: 1rem;
+  padding: 2rem;
+  border-radius: 0.5rem;
 }
 
-.container{
-    padding: 3rem;
-    line-height: 1.6;
+.content {
+  background: #d6e1e3;
 }
 
-.table-word{
-   margin: 6rem;
-    
+.container {
+  padding: 3rem;
+  line-height: 1.6;
+}
+
+.table-word {
+  margin: 6rem;
 }
 
 h3 {
-    letter-spacing: 2px;
+  letter-spacing: 2px;
 }
 
 /* Container needed to position the button. Adjust the width as needed */
 .containerStart {
-    position: relative;
-  }
-  
-  
-  /* Style the button and place it in the middle of the container/image */
-  .containerStart .test-knapp {
-    position: absolute;
-    top: 40%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    background-color: #278b8d;
-    padding: 15px;
-    border-radius: 5px;
-    color: #fff;
-    font-size: 16px;
-  }
-  
-  .test-knapp:hover {
-    background-color: #50a3a3;
-    color: #fff;
-    font-size: 17px;
+  position: relative;
+}
+
+/* Style the button and place it in the middle of the container/image */
+.containerStart .test-knapp {
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: #278b8d;
+  padding: 15px;
+  border-radius: 5px;
+  color: #fff;
+  font-size: 16px;
+}
+
+.test-knapp:hover {
+  background-color: #50a3a3;
+  color: #fff;
+  font-size: 17px;
 }
 
 .climateButton {
-   
-
-} 
-
-.fossilButton {
-    position: absolute;
-     top: 13.5%;
-    left: 23%; 
-    /* transform: translate(-50%, -50%); */
-    background-color: #278b8d;
-    margin: 20px;
-    padding: 15px;
-    border-radius: 5px;
-    color: #fff;
-    font-size: 16px;
 }
 
-
+.fossilButton {
+  position: absolute;
+  top: 13.5%;
+  left: 23%;
+  /* transform: translate(-50%, -50%); */
+  background-color: #278b8d;
+  margin: 20px;
+  padding: 15px;
+  border-radius: 5px;
+  color: #fff;
+  font-size: 16px;
+}
 
 .tempButton {
-    position: absolute;
-    top: 13.5%;
-    left: 47%; 
-    /* transform: translate(-50%, -50%); */
-    background-color: #ce8026;
-    margin: 20px;
-    padding: 15px;
-    border-radius: 5px;
-    color: #fff;
-    font-size: 16px;
+  position: absolute;
+  top: 13.5%;
+  left: 47%;
+  /* transform: translate(-50%, -50%); */
+  background-color: #ce8026;
+  margin: 20px;
+  padding: 15px;
+  border-radius: 5px;
+  color: #fff;
+  font-size: 16px;
 }
 
 .glacierButton {
-    position: absolute;
-    top: 13.5%;    
-    left: 37%; 
-    /* transform: translate(-50%, -50%); */
-    background-color: #84b393 ;
-    margin: 20px;
-    padding: 15px;
-    border-radius: 5px;
-    color: #fff;
-    font-size: 16px;
+  position: absolute;
+  top: 13.5%;
+  left: 37%;
+  /* transform: translate(-50%, -50%); */
+  background-color: #84b393;
+  margin: 20px;
+  padding: 15px;
+  border-radius: 5px;
+  color: #fff;
+  font-size: 16px;
 }
 
 .seaButton {
-     position: absolute; 
-     top: 13.5%;     
-    left: 63%; 
-    /* transform: translate(-50%, -50%); */
-    background-color: #f2cf33;
-    margin: 20px;
-    padding: 15px;
-    border-radius: 5px;
-    color: #fff;
-    font-size: 16px;
+  position: absolute;
+  top: 13.5%;
+  left: 63%;
+  /* transform: translate(-50%, -50%); */
+  background-color: #f2cf33;
+  margin: 20px;
+  padding: 15px;
+  border-radius: 5px;
+  color: #fff;
+  font-size: 16px;
 }
 
-
-.fossilimage{
-    width: 80%;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
+.fossilimage {
+  width: 80%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
 
-.siggefossil{
-    width: 100%;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 180px;
+.siggefossil {
+  width: 100%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 180px;
 }
 
-.boxsigge{
-    
+.descriptionCo2 {
+  text-align: left;
+  font-weight: bold;
+  margin-left: 4em;
+  text-decoration: underline;
+}
+
+.descriptionYear {
+  text-align: right;
+  padding-right: 4rem;
+  margin-top: -4rem;
+  font-weight: bold;
+  text-decoration: underline;
 }
