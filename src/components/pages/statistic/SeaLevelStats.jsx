@@ -19,7 +19,7 @@ if(co2 === undefined) return <p>There is no data </p>;
           <React.Fragment>
 
             
-<LineChart width={1100} height={600} data={co2}
+<LineChart width={1000} height={600} data={co2}
             margin={{top: 5, right: 30, left: 20, bottom: 5}}>
        <XAxis dataKey="Time"/>
        <YAxis/>

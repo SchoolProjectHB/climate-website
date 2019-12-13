@@ -18,7 +18,7 @@ if(global === undefined) return <p>There is no data </p>;
           <React.Fragment>
 
             
-<LineChart width={1100} height={600} data={global}
+<LineChart width={1000} height={600} data={global}
             margin={{top: 5, right: 30, left: 20, bottom: 5}}>
        <XAxis dataKey="Year"/>
        <YAxis/>
