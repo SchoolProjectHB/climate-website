@@ -21,7 +21,7 @@ class App extends Component {
         <Navbar />
         <Switch>
            <Route exact path="/" component={Start}/>  
-          <Route path="/klimatforandringar" component={Klimatforandringar}/>
+          <Route path="/statistic" component={Klimatforandringar}/>
           <Route path="/ordlista" component={Ordlista}/>
           <Route path="/omoss" component={Omoss}/>
           
