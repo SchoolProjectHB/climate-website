@@ -6,16 +6,31 @@
     --mainBlue: #007bff;
 } */
 
+
+.climateButton{
+    background: #d6e1e3;  
+}
+
+h1{
+    text-align: center;
+}
+
 .footer-middle{
     background: #3d6962;
     padding: 3rem;
 }
 
-.omOss-sida{
-    background: #dbefe1;
-    margin: 1rem;
+ .box{
+    background: rgb(241, 245, 247);
+    margin-top: 4rem;
+    margin-left: 1rem;
+    margin-right: 1rem;
     padding: 2rem;
     border-radius: 0.5rem;
+} 
+
+.content{
+    background:#d6e1e3; 
 }
 
 .container{
@@ -58,6 +73,61 @@ h3 {
 }
 
 .climateButton {
-    position: static;
+   
 
+} 
+
+.fossilButton {
+    position: absolute;
+     top: 13.5%;
+    left: 23%; 
+    /* transform: translate(-50%, -50%); */
+    background-color: #278b8d;
+    margin: 20px;
+    padding: 15px;
+    border-radius: 5px;
+    color: #fff;
+    font-size: 16px;
 }
+
+
+
+.tempButton {
+    position: absolute;
+    top: 13.5%;
+    left: 47%; 
+    /* transform: translate(-50%, -50%); */
+    background-color: #ce8026;
+    margin: 20px;
+    padding: 15px;
+    border-radius: 5px;
+    color: #fff;
+    font-size: 16px;
+}
+
+.glacierButton {
+    position: absolute;
+    top: 13.5%;    
+    left: 37%; 
+    /* transform: translate(-50%, -50%); */
+    background-color: #84b393 ;
+    margin: 20px;
+    padding: 15px;
+    border-radius: 5px;
+    color: #fff;
+    font-size: 16px;
+}
+
+.seaButton {
+     position: absolute; 
+     top: 13.5%;     
+    left: 63%; 
+    /* transform: translate(-50%, -50%); */
+    background-color: #f2cf33;
+    margin: 20px;
+    padding: 15px;
+    border-radius: 5px;
+    color: #fff;
+    font-size: 16px;
+}
+

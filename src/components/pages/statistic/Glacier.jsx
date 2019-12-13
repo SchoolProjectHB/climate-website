@@ -26,12 +26,37 @@ class App extends Component{
 render() {
   
   return (
-  
-    <div className="App">
-      <h1>Statistik över glaciärernas storlek </h1>
-      <MyBarChartGlacier CO2Emission={this.state.CO2Emission}
-      ></MyBarChartGlacier>
-      </div>  
+    <div className="content">
+      <div className="container">
+        <div className="row">
+          <div className="box col-sm">
+            <div>
+              <h4>Glaciärer</h4>
+            <p>Text text</p>
+              
+            </div>
+          </div>
+
+          <div className="box col-sm">
+            <h4>Ordlista</h4>
+            <p>Text text</p>
+          </div>
+        </div>
+        <div className="row">
+        <div className="box col-sm">
+
+        <div className="App">
+        <h1>Statistik över glaciärernas storlek </h1>
+        <MyBarChartGlacier CO2Emission={this.state.CO2Emission}
+        ></MyBarChartGlacier>
+        </div>  
+      </div>
+
+        </div>
+      </div>
+
+
+    </div>
 
       
 );

@@ -27,13 +27,39 @@ class App extends Component{
 render() {
   
   return (
-  
-    <div className="App">
-      <h1>Statistik över den globala temperaturen</h1>
-      <MyBarChartGlobal globalEmission={this.state.globalEmission}
-      onYearFilter={this.handleYearFilter}
-      ></MyBarChartGlobal>
-      </div>  
+
+    <div className="content">
+      <div className="container">
+        <div className="row">
+          <div className="box col-sm">
+            <div>
+              <h4>Globala temp.</h4>
+            <p>Text text</p>
+              
+            </div>
+          </div>
+
+          <div className="box col-sm">
+            <h4>Ordlista</h4>
+            <p>Text text</p>
+          </div>
+        </div>
+        <div className="row">
+        <div className="box col-sm">
+
+        <div className="App">
+        <h1>Statistik över den globala temperaturen</h1>
+        <MyBarChartGlobal globalEmission={this.state.globalEmission}
+        onYearFilter={this.handleYearFilter}
+        ></MyBarChartGlobal>
+        </div>  
+      </div>
+
+        </div>
+      </div>
+
+
+    </div>
 
       
 );

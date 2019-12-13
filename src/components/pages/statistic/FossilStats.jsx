@@ -18,7 +18,7 @@ if(co2 === undefined) return <p>There is no data...! </p>;
         return (  
           <React.Fragment>
             
-<LineChart width={1100} 
+<LineChart width={1000} 
 height={600} data={co2}
 margin={{top: 5, 
 right: 30, 
