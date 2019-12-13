@@ -71,7 +71,7 @@ class App extends Component {
               </p>
             </div>
 
-            <div className="box col-sm">
+            <div className="boxsigge col-sm">
             <img src={siggefossil} class="siggefossil" alt="clothes hanging to dry"></img>
               
             </div>
