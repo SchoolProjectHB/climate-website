@@ -16,7 +16,7 @@ class Klimatforandringar extends Component {
   render() {
     return (
       <div>
-      <div class="Start">  
+      <div class="climateButton">  
         <Link to="/statistic/FossilFuels"><button class="small ui button">Fossila Bränslen</button></Link>
         <Link to="/statistic/GlobalTemp"><button class="small ui button">Globala Temperaturer</button></Link>
         <Link to="/statistic/Glacier"><button class="small ui button">Glaciärer</button></Link>
