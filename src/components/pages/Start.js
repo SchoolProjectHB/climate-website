@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 // import { Button } from "semantic-ui-react";
-import startsida from "../images/startsida.png";
+import startsida from "../images/startsida.gif";
 //import sigge from "../images/sigge.png";
 import { Link } from "react-router-dom";
 
