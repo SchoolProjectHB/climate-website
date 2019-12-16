@@ -90,6 +90,10 @@ h3 {
   font-size: 17px;
 }
 
+/* .fossilButton:focus {
+    background-color: #574e15;
+} */
+
 .tempButton {
   position: absolute;
   top: 13.5%;
