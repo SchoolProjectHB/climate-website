@@ -85,6 +85,11 @@ h3 {
   font-size: 16px;
 }
 
+.fossilButton:hover {
+  background-color: #18a6a7;
+  font-size: 17px;
+}
+
 .tempButton {
   position: absolute;
   top: 13.5%;
@@ -96,6 +101,11 @@ h3 {
   border-radius: 5px;
   color: #fff;
   font-size: 16px;
+}
+
+.tempButton:hover {
+  background-color: #eb9d34;
+  font-size: 17px;
 }
 
 .glacierButton {
@@ -111,6 +121,11 @@ h3 {
   font-size: 16px;
 }
 
+.glacierButton:hover {
+  background-color: #8ecbac;
+  font-size: 17px;
+}
+
 .seaButton {
   position: absolute;
   top: 13.5%;
@@ -122,6 +137,11 @@ h3 {
   border-radius: 5px;
   color: #fff;
   font-size: 16px;
+}
+
+.seaButton:hover {
+  background-color: #f4de54;
+  font-size: 17px;
 }
 
 .fossilimage {
