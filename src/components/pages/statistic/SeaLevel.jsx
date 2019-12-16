@@ -1,6 +1,10 @@
 import React, { Component } from 'react';
 import MyBarChartSeaLevel from "./SeaLevelStats";
 import 'semantic-ui-css/semantic.min.css'
+import siggefossil from "./siggefossil.png";
+import seaimage from "./seaimage.png";
+
+
 
 //import './cardA.css';
 
@@ -34,6 +38,7 @@ render() {
             <div>
               <h4>Havsnivåer</h4>
             <p>Text text</p>
+            <img src={seaimage} class="fossilimage" alt="clothes hanging to dry"></img>
       
             </div>
           </div>
@@ -42,14 +47,23 @@ render() {
             <h4>Ordlista</h4>
             <p>Text text</p>
           </div>
+          <div className="boxsigge col-sm">
+            <img src={siggefossil} class="siggefossil" alt="sigge info."></img>
+              
+            </div>
+
         </div>
         <div className="row">
         <div className="box col-sm">
 
         <div className="App">
         <h1>Statistik över havsnivåerna</h1>
+        <p className="descriptionCo2">co2</p>
+
         <MyBarChartSeaLevel CO2Emission={this.state.CO2Emission}
         ></MyBarChartSeaLevel>
+                      <p className="descriptionYear">År</p>
+
         </div>  
       </div>
 

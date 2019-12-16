@@ -1,6 +1,10 @@
 import React, { Component } from "react";
 import MyBarChartGlacier from "./GlacierStats";
 import "semantic-ui-css/semantic.min.css";
+import glacierimage from "./glacierimage.png";
+import siggefossil from "./siggefossil.png";
+
+
 
 //import './cardA.css';
 
@@ -39,12 +43,19 @@ class App extends Component {
                   80 meter. Det skulle innebära att städer som New York och
                   Tokyo skulle hamna under vatten.
                 </p>
+            <img src={glacierimage} class="fossilimage" alt="clothes hanging to dry"></img>
+
               </div>
             </div>
 
             <div className="box col-sm">
               <h4>Ordlista</h4>
               <p>Text text</p>
+            </div>
+
+              <div className="boxsigge col-sm">
+            <img src={siggefossil} class="siggefossil" alt="sigge info."></img>
+              
             </div>
           </div>
           <div className="row">

@@ -19,14 +19,14 @@ if(co2 === undefined) return <p>There is no data </p>;
           <React.Fragment>
 
             
-<LineChart width={1000} height={600} data={co2}
+<LineChart width={1000} height={500} data={co2}
             margin={{top: 5, right: 30, left: 20, bottom: 5}}>
        <XAxis dataKey="Time"/>
        <YAxis/>
        <CartesianGrid strokeDasharray="3 3"/>
        <Tooltip/>
        <Legend />
-       <Line type="monotone" dataKey="GMSL" stroke="#8884d8" activeDot={{r: 8}}/>
+       <Line type="monotone" name="Global medelhavsnivå (m)" dataKey="GMSL" stroke="#8884d8" activeDot={{r: 8}}/>
        
        
       </LineChart>

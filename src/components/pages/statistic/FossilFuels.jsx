@@ -89,6 +89,7 @@ class App extends Component {
                 ></MyBarChart>
 
                       <p className="descriptionYear">År</p>
+                     
 
               </div>
             </div>
