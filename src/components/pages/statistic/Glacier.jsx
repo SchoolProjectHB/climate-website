@@ -59,7 +59,7 @@ class App extends Component {
               <h4>Ordlista</h4>
               <b>Glaciär:</b><p>En stor massa av is och snö.</p>
               <b>Glaciärens massbalans:</b><p>Balansen mellan ismassor som växer och ismassor som smälter.</p> 
-            <b>Olika typer av glaciärer:</b>
+            
             <b>Toppglaciär:</b><p>En glaciär på en bergstopp.</p>
             <b>Nischglaciär:</b><p>En glaciär som ligger i en gryta eller skål.</p>
             <b>Isfält:</b><p>En stor glaciär som flyter åt flera håll.</p>
