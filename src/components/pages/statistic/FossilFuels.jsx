@@ -32,7 +32,10 @@ class App extends Component {
                   Bensin, diesel, olja, naturgas och kol är exempel på fossila
                   bränslen. Dessa fossila bränslena används till fordon, kol och
                   oljekraftverk. När fossila bränslen används, släpper de ut
-                  gaser som skadar luften. Några fossila bränslen är:
+                  gaser som skadar luften. 
+                  <br></br>
+                  <br></br>
+                  Några fossila bränslen är:
                   svaveldioxid, kväveoxider och koldioxid (CO2). Alla dessa
                   bränslen bidrar till den globala uppvärmningen.
                 </p>

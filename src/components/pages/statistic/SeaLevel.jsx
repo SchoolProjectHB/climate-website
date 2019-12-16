@@ -37,7 +37,10 @@ render() {
           <div className="box col-sm">
             <div>
               <h4>Havsnivåer</h4>
-            <p>Text text</p>
+            <p>På grund av den ökade globala uppvärmingen börjar glaciärerna att smälta. Om alla glaciärer på Grönland och Antarktis skulle smälta stiger havsnivån ungefär 80 meter. Det skulle innebära att städer som New York och Tokyo skulle hamna under vatten.
+<br></br>
+<br></br>
+Statistik på den globala medelhavsnivån uppdateras varannan månad. Siffrorna är hämtade från NASA/NCES. </p>
             <img src={seaimage} class="fossilimage" alt="clothes hanging to dry"></img>
       
             </div>
@@ -45,7 +48,9 @@ render() {
 
           <div className="box col-sm">
             <h4>Ordlista</h4>
-            <p>Text text</p>
+            <b>Global Uppvärmning:</b><p>En ökning av jordens medeltemperatur. </p>
+            <b>Glaciär:</b><p>En stor massa av is och snö.</p>
+            
           </div>
           <div className="boxsigge col-sm">
             <img src={siggefossil} class="siggefossil" alt="sigge info."></img>
