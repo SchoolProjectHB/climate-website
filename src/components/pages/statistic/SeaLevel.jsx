@@ -50,7 +50,8 @@ Statistik på den globala medelhavsnivån uppdateras varannan månad. Siffrorna 
             <h4>Ordlista</h4>
             <b>Global Uppvärmning:</b><p>En ökning av jordens medeltemperatur. </p>
             <b>Glaciär:</b><p>En stor massa av is och snö.</p>
-            
+            <b>NASA:</b><p>USA:S myndighet för luft- och rymdfart.</p>
+            <b>NCES:</b><p>NCES står för National Center for Education Statistic. Dem samlar in och analyserar statistik.  </p>
           </div>
           <div className="boxsigge col-sm">
             <img src={siggefossil} class="siggefossil" alt="sigge info."></img>

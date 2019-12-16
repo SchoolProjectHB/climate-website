@@ -42,7 +42,7 @@ class App extends Component {
                   <br></br>
                   Hela 97% av glaciärerna
                   finns på Antarktis och Grönland. På grund av ökad global
-                  temperatur börjar glaciärerna att smälta. <br></br>
+                  temperatur börjar glaciärerna att smälta. Det finns totalt sex olika glaciärer.<br></br>
                   <br></br>
                   
                   Om alla glaciärer på
@@ -59,6 +59,15 @@ class App extends Component {
               <h4>Ordlista</h4>
               <b>Glaciär:</b><p>En stor massa av is och snö.</p>
               <b>Glaciärens massbalans:</b><p>Balansen mellan ismassor som växer och ismassor som smälter.</p> 
+            <b>Olika typer av glaciärer:</b>
+            <b>Toppglaciär:</b><p>En glaciär på en bergstopp.</p>
+            <b>Nischglaciär:</b><p>En glaciär som ligger i en gryta eller skål.</p>
+            <b>Isfält:</b><p>En stor glaciär som flyter åt flera håll.</p>
+            <b>Inlandsis:</b><p>Ett stort isfält som täcker hela kontinenter.</p>
+            <b>Dalgläciärer:</b><p>En glaciär som flyter längs med en dal</p>
+            <b>Piedmontärglaciär:</b><p>En glaciär som rinner ut och breder ut sig på landområden.</p>
+
+            <p></p>
             </div>
 
               <div className="boxsigge col-sm">
