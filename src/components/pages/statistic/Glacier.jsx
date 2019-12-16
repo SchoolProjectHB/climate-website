@@ -62,9 +62,12 @@ class App extends Component {
             <div className="box col-sm">
               <div className="App">
                 <h1>Statistik över glaciärernas storlek </h1>
+        <p className="descriptionCo2">m</p>
                 <MyBarChartGlacier
                   CO2Emission={this.state.CO2Emission}
                 ></MyBarChartGlacier>
+                      <p className="descriptionYear">År</p>
+
               </div>
             </div>
           </div>

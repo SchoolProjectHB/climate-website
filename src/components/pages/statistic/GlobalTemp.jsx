@@ -1,6 +1,10 @@
 import React, { Component } from "react";
 import MyBarChartGlobal from "./GlobalStats";
 import "semantic-ui-css/semantic.min.css";
+import tempimage from "./tempimage.png";
+import siggetemp from "./tempsigge.png";
+
+
 
 //import './cardA.css';
 
@@ -37,6 +41,8 @@ class App extends Component {
                   orsakas av den ökade utsläppen av växthusgaser från mänskliga
                   aktiviteter.{" "}
                 </p>
+            <img src={tempimage} class="fossilimage" alt="clothes hanging to dry"></img>
+
               </div>
             </div>
 
@@ -44,15 +50,23 @@ class App extends Component {
               <h4>Ordlista</h4>
               <p>Text text</p>
             </div>
+            <div className="boxsigge col-sm">
+            <img src={siggetemp} class="siggefossil" alt="sigge info."></img>
+              
+            </div>
           </div>
           <div className="row">
             <div className="box col-sm">
               <div className="App">
                 <h1>Statistik över den globala temperaturen</h1>
+        <p className="descriptionCo2">C°</p>
+
                 <MyBarChartGlobal
                   globalEmission={this.state.globalEmission}
                   onYearFilter={this.handleYearFilter}
                 ></MyBarChartGlobal>
+                      <p className="descriptionYear">År</p>
+
               </div>
             </div>
           </div>

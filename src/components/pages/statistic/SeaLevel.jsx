@@ -58,7 +58,7 @@ render() {
 
         <div className="App">
         <h1>Statistik över havsnivåerna</h1>
-        <p className="descriptionCo2">co2</p>
+        <p className="descriptionCo2">m</p>
 
         <MyBarChartSeaLevel CO2Emission={this.state.CO2Emission}
         ></MyBarChartSeaLevel>
