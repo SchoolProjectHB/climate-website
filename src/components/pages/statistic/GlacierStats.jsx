@@ -26,7 +26,7 @@ if(dataChartGlacier === undefined) return <p>There is no data </p>;
        <CartesianGrid strokeDasharray="3 3"/>
        <Tooltip/>
        <Legend />
-       <Line type="monotone" dataKey="Mean cumulative mass balance" name="Glaciärer" stroke="#8884d8" activeDot={{r: 8}}/>
+       <Line type="monotone" dataKey="Mean cumulative mass balance" name="Glaciärens Massbalans" stroke="#8884d8" activeDot={{r: 8}}/>
        
        
       </LineChart>

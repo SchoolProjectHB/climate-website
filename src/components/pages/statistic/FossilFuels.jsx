@@ -2,7 +2,7 @@ import React, { Component } from "react";
 import MyBarChart from "./FossilStats";
 import "semantic-ui-css/semantic.min.css";
 import fossilimage from "./fossilimage.png";
-import siggefossil from "./siggefossil.png";
+import siggefossil from "./SiggeFossilaBranslen.png";
 
 
 // import Ordlista from '../components/pages/Ordlista';

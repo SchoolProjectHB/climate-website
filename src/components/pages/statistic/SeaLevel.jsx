@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import MyBarChartSeaLevel from "./SeaLevelStats";
 import 'semantic-ui-css/semantic.min.css'
-import siggefossil from "./siggefossil.png";
+import siggefossil from "./SiggeHavsnivaer.png";
 import seaimage from "./seaimage.png";
 
 

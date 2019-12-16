@@ -2,7 +2,7 @@ import React, { Component } from "react";
 import MyBarChartGlacier from "./GlacierStats";
 import "semantic-ui-css/semantic.min.css";
 import glacierimage from "./glacierimage.png";
-import siggefossil from "./siggefossil.png";
+import siggefossil from "./SiggeGlacier.png";
 
 
 
