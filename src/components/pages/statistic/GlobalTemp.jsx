@@ -41,7 +41,7 @@ class App extends Component {
                 den ökade utsläppen av växthusgaser. De senaste hundra åren har temperaturen
                  på jorden ökat snabbare än någonsin. {" "}
                 </p>
-            <img src={tempimage} class="fossilimage" alt="clothes hanging to dry"></img>
+            <img src={tempimage} class="tempimage" alt="clothes hanging to dry"></img>
 
               </div>
             </div>

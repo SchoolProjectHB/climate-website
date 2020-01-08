@@ -43,7 +43,7 @@ class App extends Component {
                 </p>
                 <img
                   src={seaimage}
-                  class="fossilimage"
+                  class="seaimage"
                   alt="clothes hanging to dry"
                 ></img>
               </div>
