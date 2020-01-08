@@ -48,7 +48,7 @@ class App extends Component {
                  är en risk att vissa städer kan hamna under vatten, eller att vissa djurarter (så som isbjörnarna)
                  utrotas. {" "}
                 </p>
-            <img src={tempimage} class="fossilimage" alt="clothes hanging to dry"></img>
+            <img src={tempimage} class="tempimage" alt="clothes hanging to dry"></img>
 
               </div>
             </div>
