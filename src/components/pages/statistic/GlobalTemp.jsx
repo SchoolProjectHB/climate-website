@@ -39,7 +39,14 @@ class App extends Component {
                 <p>
                 Global uppvärmning är en ökning av jordens medeltemperatur, som orsakas av 
                 den ökade utsläppen av växthusgaser. De senaste hundra åren har temperaturen
-                 på jorden ökat snabbare än någonsin. {" "}
+                 på jorden ökat snabbare än någonsin.
+                 
+                 <br></br> 
+                 <br></br> 
+                 
+                 Konsekvenserna av att den globala temperauren ökar är allvarliga. Bland annat
+                 är en risk att vissa städer kan hamna under vatten, eller att vissa djurarter (så som isbjörnarna)
+                 utrotas. {" "}
                 </p>
             <img src={tempimage} class="fossilimage" alt="clothes hanging to dry"></img>
 
