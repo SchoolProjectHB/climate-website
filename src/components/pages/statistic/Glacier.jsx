@@ -33,22 +33,19 @@ class App extends Component {
               <div>
                 <h4>Glaciärer</h4>
                 <p>
-                  En glaciär är en stor massa av is och snö, och innehåller
-                  jordens största resurs av sötvatten. Cirka tio procent av
-                  jordens yta är täckt av glaciärer, och dessa finns i alla
-                  världsdelar förutom från Australien. 
+                  En glaciär är en stor massa av is och snö, som innehåller jordens största 
+                  resurs av sötvatten. Cirka tio procent av jordens yta är täckt av glaciärer, 
+                  och dessa finns i alla världsdelar förutom från Australien.
                   
                   <br></br>
                   <br></br>
-                  Hela 97% av glaciärerna
-                  finns på Antarktis och Grönland. På grund av ökad global
-                  temperatur börjar glaciärerna att smälta. Det finns totalt sex olika glaciärer.<br></br>
+                  Hela 97% av glaciärerna finns på Antarktis och Grönland. På grund av ökad global 
+                  temperatur börjar glaciärerna att smälta. Det finns totalt sex olika glaciärer.
+                  <br></br>
                   <br></br>
                   
-                  Om alla glaciärer på
-                  Grönland och Antarktis skulle smälta stiger havsnivån ungefär
-                  80 meter. Det skulle innebära att städer som New York och
-                  Tokyo skulle hamna under vatten.
+                  Om alla glaciärer på Grönland och Antarktis skulle smälta stiger havsnivån ungefär 80 meter.
+                  Det skulle innebära att städer som New York och Tokyo skulle hamna under vatten.
                 </p>
             <img src={glacierimage} class="fossilimage" alt="clothes hanging to dry"></img>
 
@@ -59,13 +56,8 @@ class App extends Component {
               <h4>Ordlista</h4>
               <b>Glaciär:</b><p>En stor massa av is och snö.</p>
               <b>Glaciärens massbalans:</b><p>Balansen mellan ismassor som växer och ismassor som smälter.</p> 
-            
-            <b>Toppglaciär:</b><p>En glaciär på en bergstopp.</p>
-            <b>Nischglaciär:</b><p>En glaciär som ligger i en gryta eller skål.</p>
-            <b>Isfält:</b><p>En stor glaciär som flyter åt flera håll.</p>
-            <b>Inlandsis:</b><p>Ett stort isfält som täcker hela kontinenter.</p>
-            <b>Dalgläciärer:</b><p>En glaciär som flyter längs med en dal</p>
-            <b>Piedmontärglaciär:</b><p>En glaciär som rinner ut och breder ut sig på landområden.</p>
+            <b>Olika typer av glaciärer:</b><p>Det finns olika typer av glaciärer, så som toppglaciär, isfält, 
+              nischglaciär eller inlandsis. </p>
 
             <p></p>
             </div>

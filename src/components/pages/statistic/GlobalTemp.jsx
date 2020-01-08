@@ -35,11 +35,11 @@ class App extends Component {
           <div className="row">
             <div className="box col-sm">
               <div>
-                <h4>Globala temp.</h4>
+                <h4>Globala temperaturer</h4>
                 <p>
-                Global  uppvärmning är en ökning av jordens medeltemperatur som orsakas av 
-                den ökade utsläppen av växthusgaser från mänskliga aktiviteter.  
-                De senaste hundra åren har temperaturen på jorden ökat snabbare än någonsin. {" "}
+                Global uppvärmning är en ökning av jordens medeltemperatur, som orsakas av 
+                den ökade utsläppen av växthusgaser. De senaste hundra åren har temperaturen
+                 på jorden ökat snabbare än någonsin. {" "}
                 </p>
             <img src={tempimage} class="fossilimage" alt="clothes hanging to dry"></img>
 
@@ -48,8 +48,8 @@ class App extends Component {
 
             <div className="box col-sm">
               <h4>Ordlista</h4>
-              <b>Växthusgas:</b><p>En gas i atmosfären som fångar in värme, några exempel är koldioxid och metan.</p>
-            <b>Medeltemperatur:</b><p>Medeltemperatur är den temperatur som man har i genomsnitt. </p>
+              <b>Växthusgas:</b><p>En gas i atmosfären som fångar in värme. Exempel på växthusgaser är koldioxid och metan.</p>
+            <b>Medeltemperatur:</b><p>Medeltemperatur är den genomsnittliga temperaturen.</p>
             </div>
             <div className="boxsigge col-sm">
             <img src={siggetemp} class="siggefossil" alt="sigge info."></img>
