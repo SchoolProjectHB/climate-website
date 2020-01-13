@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "1e9308cbf93eecee7ab5e9ef8b5ad5fb",
+    "revision": "28e7770af725d0b9a5e640f9714a2b3b",
     "url": "/climate-website/index.html"
   },
   {
-    "revision": "2f91bdf8a08563619c7b",
-    "url": "/climate-website/static/css/2.118dfa39.chunk.css"
+    "revision": "4b28e5cd33ba8ef605f8",
+    "url": "/climate-website/static/css/2.c061d0aa.chunk.css"
   },
   {
-    "revision": "52af066e0f2f3a654589",
-    "url": "/climate-website/static/css/main.c22518e8.chunk.css"
+    "revision": "422a181c3f7854393f14",
+    "url": "/climate-website/static/css/main.fcd00adc.chunk.css"
   },
   {
-    "revision": "2f91bdf8a08563619c7b",
-    "url": "/climate-website/static/js/2.728e5898.chunk.js"
+    "revision": "4b28e5cd33ba8ef605f8",
+    "url": "/climate-website/static/js/2.47ed6837.chunk.js"
   },
   {
-    "revision": "52af066e0f2f3a654589",
-    "url": "/climate-website/static/js/main.0c644137.chunk.js"
+    "revision": "422a181c3f7854393f14",
+    "url": "/climate-website/static/js/main.c26a56bf.chunk.js"
   },
   {
     "revision": "31da90484c9c115e1fd3",
@@ -64,12 +64,16 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/climate-website/static/media/flags.9c74e172.png"
   },
   {
-    "revision": "16d6badb9cb87b5d74773dfb0af64d64",
-    "url": "/climate-website/static/media/fossilimage.16d6badb.png"
+    "revision": "ca8d0efcc77b9733c487d2843080118e",
+    "url": "/climate-website/static/media/fossilimage.ca8d0efc.png"
   },
   {
     "revision": "f98d788a6c98553b9dad09755f7ad585",
     "url": "/climate-website/static/media/glacierimage.f98d788a.png"
+  },
+  {
+    "revision": "45b90801b43633367903d16fce0b05b9",
+    "url": "/climate-website/static/media/homepage8.45b90801.gif"
   },
   {
     "revision": "0ab54153eeeca0ce03978cc463b257f7",
@@ -120,11 +124,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/climate-website/static/media/seaimage.207270c2.png"
   },
   {
-    "revision": "b11c854a1f9698772ef505004a0bd198",
-    "url": "/climate-website/static/media/startsida-2-(3).b11c854a.gif"
-  },
-  {
-    "revision": "000a3fdef6efeba49acd4a3790afec95",
-    "url": "/climate-website/static/media/tempimage.000a3fde.png"
+    "revision": "75cdefc6a48a5f6e24dbe400b62d2643",
+    "url": "/climate-website/static/media/tempimage.75cdefc6.png"
   }
 ]);
