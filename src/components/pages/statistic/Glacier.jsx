@@ -47,7 +47,7 @@ class App extends Component {
                   Om alla glaciärer på Grönland och Antarktis skulle smälta stiger havsnivån ungefär 80 meter.
                   Det skulle innebära att städer som New York och Tokyo skulle hamna under vatten.
                 </p>
-            <img src={glacierimage} class="fossilimage" alt="clothes hanging to dry"></img>
+            <img src={glacierimage} class="glacierimage" alt="clothes hanging to dry"></img>
 
               </div>
             </div>
