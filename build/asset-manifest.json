@@ -1,35 +1,35 @@
 {
   "files": {
-    "main.css": "/climate-website/static/css/main.c22518e8.chunk.css",
-    "main.js": "/climate-website/static/js/main.0c644137.chunk.js",
-    "main.js.map": "/climate-website/static/js/main.0c644137.chunk.js.map",
+    "main.css": "/climate-website/static/css/main.fcd00adc.chunk.css",
+    "main.js": "/climate-website/static/js/main.28042dc5.chunk.js",
+    "main.js.map": "/climate-website/static/js/main.28042dc5.chunk.js.map",
     "runtime-main.js": "/climate-website/static/js/runtime-main.0629fcad.js",
     "runtime-main.js.map": "/climate-website/static/js/runtime-main.0629fcad.js.map",
-    "static/css/2.118dfa39.chunk.css": "/climate-website/static/css/2.118dfa39.chunk.css",
-    "static/js/2.728e5898.chunk.js": "/climate-website/static/js/2.728e5898.chunk.js",
-    "static/js/2.728e5898.chunk.js.map": "/climate-website/static/js/2.728e5898.chunk.js.map",
+    "static/css/2.c061d0aa.chunk.css": "/climate-website/static/css/2.c061d0aa.chunk.css",
+    "static/js/2.47ed6837.chunk.js": "/climate-website/static/js/2.47ed6837.chunk.js",
+    "static/js/2.47ed6837.chunk.js.map": "/climate-website/static/js/2.47ed6837.chunk.js.map",
     "index.html": "/climate-website/index.html",
-    "precache-manifest.31cae51e353f2273008671fbd3fd3462.js": "/climate-website/precache-manifest.31cae51e353f2273008671fbd3fd3462.js",
+    "precache-manifest.9c1fb9639eb65c0d83f66bb37e3efbb2.js": "/climate-website/precache-manifest.9c1fb9639eb65c0d83f66bb37e3efbb2.js",
     "service-worker.js": "/climate-website/service-worker.js",
-    "static/css/2.118dfa39.chunk.css.map": "/climate-website/static/css/2.118dfa39.chunk.css.map",
-    "static/css/main.c22518e8.chunk.css.map": "/climate-website/static/css/main.c22518e8.chunk.css.map",
+    "static/css/2.c061d0aa.chunk.css.map": "/climate-website/static/css/2.c061d0aa.chunk.css.map",
+    "static/css/main.fcd00adc.chunk.css.map": "/climate-website/static/css/main.fcd00adc.chunk.css.map",
     "static/media/SiggeFossilaBranslen.png": "/climate-website/static/media/SiggeFossilaBranslen.3cb3e5a0.png",
     "static/media/SiggeGlacier.png": "/climate-website/static/media/SiggeGlacier.b68e6458.png",
     "static/media/SiggeGlobalTemperatur.png": "/climate-website/static/media/SiggeGlobalTemperatur.0c3b018a.png",
     "static/media/SiggeHavsnivaer.png": "/climate-website/static/media/SiggeHavsnivaer.22536f91.png",
     "static/media/semantic.min.css": "/climate-website/static/media/outline-icons.ef60a4f6.woff",
-    "static/media/fossilimage.png": "/climate-website/static/media/fossilimage.16d6badb.png",
+    "static/media/fossilimage.png": "/climate-website/static/media/fossilimage.ca8d0efc.png",
     "static/media/glacierimage.png": "/climate-website/static/media/glacierimage.f98d788a.png",
+    "static/media/homepage8.gif": "/climate-website/static/media/homepage8.45b90801.gif",
     "static/media/logo.png": "/climate-website/static/media/logo.43dd4d7d.png",
     "static/media/seaimage.png": "/climate-website/static/media/seaimage.207270c2.png",
-    "static/media/startsida-2-(3).gif": "/climate-website/static/media/startsida-2-(3).b11c854a.gif",
-    "static/media/tempimage.png": "/climate-website/static/media/tempimage.000a3fde.png"
+    "static/media/tempimage.png": "/climate-website/static/media/tempimage.75cdefc6.png"
   },
   "entrypoints": [
     "static/js/runtime-main.0629fcad.js",
-    "static/css/2.118dfa39.chunk.css",
-    "static/js/2.728e5898.chunk.js",
-    "static/css/main.c22518e8.chunk.css",
-    "static/js/main.0c644137.chunk.js"
+    "static/css/2.c061d0aa.chunk.css",
+    "static/js/2.47ed6837.chunk.js",
+    "static/css/main.fcd00adc.chunk.css",
+    "static/js/main.28042dc5.chunk.js"
   ]
 }
