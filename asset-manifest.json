@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/climate-website/static/css/main.fcd00adc.chunk.css",
-    "main.js": "/climate-website/static/js/main.c26a56bf.chunk.js",
-    "main.js.map": "/climate-website/static/js/main.c26a56bf.chunk.js.map",
+    "main.js": "/climate-website/static/js/main.28042dc5.chunk.js",
+    "main.js.map": "/climate-website/static/js/main.28042dc5.chunk.js.map",
     "runtime-main.js": "/climate-website/static/js/runtime-main.0629fcad.js",
     "runtime-main.js.map": "/climate-website/static/js/runtime-main.0629fcad.js.map",
     "static/css/2.c061d0aa.chunk.css": "/climate-website/static/css/2.c061d0aa.chunk.css",
     "static/js/2.47ed6837.chunk.js": "/climate-website/static/js/2.47ed6837.chunk.js",
     "static/js/2.47ed6837.chunk.js.map": "/climate-website/static/js/2.47ed6837.chunk.js.map",
     "index.html": "/climate-website/index.html",
-    "precache-manifest.b4e7bcbb6762530a7aa50d572ad225ec.js": "/climate-website/precache-manifest.b4e7bcbb6762530a7aa50d572ad225ec.js",
+    "precache-manifest.9c1fb9639eb65c0d83f66bb37e3efbb2.js": "/climate-website/precache-manifest.9c1fb9639eb65c0d83f66bb37e3efbb2.js",
     "service-worker.js": "/climate-website/service-worker.js",
     "static/css/2.c061d0aa.chunk.css.map": "/climate-website/static/css/2.c061d0aa.chunk.css.map",
     "static/css/main.fcd00adc.chunk.css.map": "/climate-website/static/css/main.fcd00adc.chunk.css.map",
@@ -30,6 +30,6 @@
     "static/css/2.c061d0aa.chunk.css",
     "static/js/2.47ed6837.chunk.js",
     "static/css/main.fcd00adc.chunk.css",
-    "static/js/main.c26a56bf.chunk.js"
+    "static/js/main.28042dc5.chunk.js"
   ]
 }
