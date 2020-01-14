@@ -134,7 +134,7 @@ h3 {
 
 .seaButton {
   position: absolute;
-  top: 13.5%;
+  top: 20%;
   left: 63%;
   /* transform: translate(-50%, -50%); */
   background-color: #f2cf33;
@@ -201,9 +201,12 @@ h3 {
 }
 
 .logo{
-  width: 9%;    
-}
+  width: 9%; }
 
 .boxsigge{
   margin: 30px;
+}
+
+.navbar{
+  margin-top: -7px;
 }
