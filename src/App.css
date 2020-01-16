@@ -1,13 +1,4 @@
-/* :root {
-    --mainDark: #343a40;
-    --mainGrey: rgba(109, 109, 109);
-    --mainLightGrey: rgba(172, 172, 172);
-    --mainWhite: #ffffff;
-    --mainBlue: #007bff;
-} */
-body{
 
-}
 
 .climateButton {
   background: #d6e1e3;
@@ -19,6 +10,9 @@ h1 {
   text-align: center;
 }
 
+.main-footer{
+}
+
 .footer-middle {
   background: #3d6962;
   padding: 3rem;
@@ -26,43 +20,47 @@ h1 {
 
 .box {
   background: rgb(241, 245, 247);
-  margin-top: 8rem;
+  margin-top: 10rem;
   margin-left: 1rem;
   margin-right: 1rem;
-  padding: 2rem;
+  padding: 5rem;
   border-radius: 0.5rem;
 }
 
-.content {
-  background: #d6e1e3;
+.box-graph{
+  background: rgb(241, 245, 247);
+  margin-top: 2rem;
+  margin-left: 1rem;
+  margin-right: 1rem;
+  margin-bottom: 2rem;
+  padding: 2rem;
+  border-radius: 0.5rem;
 }
+ .content {
+  padding-top: -20rem;
+  background: #c3d2d7;
+} 
 
-.container {
-  padding: 3rem;
-  line-height: 1.6;
-}
 
 .table-word {
   margin: 6rem;
 }
 
 h3 {
-  letter-spacing: 2px;
+  letter-spacing: 0.125rem;
 }
 
-/* Container needed to position the button. Adjust the width as needed */
 .containerStart {
   position: relative;
 }
 
-/* Style the button and place it in the middle of the container/image */
 .containerStart .test-knapp {
   position: absolute;
   top: 40%;
   left: 50%;
   transform: translate(-50%, -50%);
   background-color: #278b8d;
-  padding: 15px;
+  padding: 1rem;
   border-radius: 5px;
   color: #fff;
   font-size: 16px;
@@ -74,17 +72,15 @@ h3 {
   font-size: 17px;
 }
 
-/*.climateButton {
-}*/
+
 
 .fossilButton {
   position: absolute;
   top: 13.5%;
   left: 23%;
-  /* transform: translate(-50%, -50%); */
   background-color: #278b8d;
-  margin: 20px;
-  padding: 15px;
+  margin: 1rem;
+  padding: 1rem;
   border-radius: 5px;
   color: #fff;
   font-size: 16px;
@@ -95,18 +91,13 @@ h3 {
   font-size: 17px;
 }
 
-/* .fossilButton:focus {
-    background-color: #574e15;
-} */
-
 .tempButton {
   position: absolute;
   top: 13.5%;
   left: 47%;
-  /* transform: translate(-50%, -50%); */
   background-color: #ce8026;
-  margin: 20px;
-  padding: 15px;
+  margin: 1rem;
+  padding: 1rem;
   border-radius: 5px;
   color: #fff;
   font-size: 16px;
@@ -121,10 +112,9 @@ h3 {
   position: absolute;
   top: 13.5%;
   left: 37%;
-  /* transform: translate(-50%, -50%); */
   background-color: #84b393;
-  margin: 20px;
-  padding: 15px;
+  margin: 1rem;
+  padding: 1rem;
   border-radius: 5px;
   color: #fff;
   font-size: 16px;
@@ -139,10 +129,9 @@ h3 {
   position: absolute;
   top: 13.5%;
   left: 63%;
-  /* transform: translate(-50%, -50%); */
   background-color: #f2cf33;
-  margin: 20px;
-  padding: 15px;
+  margin: 1rem;
+  padding: 1rem;
   border-radius: 5px;
   color: #fff;
   font-size: 16px;
@@ -203,17 +192,21 @@ h3 {
   text-decoration: underline;
 }
 
-.logo{
-  width: 9%; }
-
-.boxsigge{
-  margin: 30px;
+.logo {
+  width: 9%;
 }
 
-.navbar{
-  margin-top:0px;
+.boxsigge {
+  margin-top:  4rem;
+  margin-left: 1rem;
+  margin-right: 1rem;
+  padding: 2rem;
+  border-radius: 0.5rem;
 }
 
-.divlogo{
-  margin-top: 20px;
-}
+
+
+.divlogo {
+  margin-top: 0.6rem;
+  margin-left: 40px;
+} 

@@ -1,6 +1,4 @@
 import React from "react";
-//import './App.css';
-// import styled from 'styled-components';
 
 function Footer() {
   return (
@@ -57,5 +55,3 @@ function Footer() {
 }
 
 export default Footer;
-
-// const FooterContainer = styled.footer``;
