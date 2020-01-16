@@ -1,15 +1,14 @@
 import React, { Component } from 'react';
 import './App.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import Navbar from './components/layouts/Navbar'; 
-import Footer from './components/layouts/Footer'; 
+import Navbar from './components/layouts/Navbar';
+import Footer from './components/layouts/Footer';
 // React Router Import
-import { Switch, Route, Redirect } from 'react-router-dom'; 
+import { Switch, Route, Redirect } from 'react-router-dom';
 // Import pages
 import Start from './components/pages/Start';
 import Klimatforandringar from './components/pages/Klimatforandringar';
-import Ordlista from './components/pages/Ordlista';
-import Omoss from './components/pages/Omoss';
+
 
 
 
@@ -20,11 +19,13 @@ class App extends Component {
       <div>
         <Navbar />
         <Switch>
+<<<<<<< HEAD
           <Redirect from="/" exact to="/start"></Redirect>
+=======
+        <Redirect from= "/climate-website" exact to = "/start"></Redirect>          
+>>>>>>> 711ec93eb5b597f46948e2c73ea36c1fced0f901
           <Route path="/start" component={Start}/>
           <Route path="/statistic" component={Klimatforandringar}/>
-          <Route path="/ordlista" component={Ordlista}/>
-          <Route path="/omoss" component={Omoss}/>
         </Switch>
         <Footer />
 

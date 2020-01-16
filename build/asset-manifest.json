@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "/climate-website/static/css/main.fcd00adc.chunk.css",
-    "main.js": "/climate-website/static/js/main.28042dc5.chunk.js",
-    "main.js.map": "/climate-website/static/js/main.28042dc5.chunk.js.map",
+    "main.css": "/climate-website/static/css/main.33b3848f.chunk.css",
+    "main.js": "/climate-website/static/js/main.bf33ca7f.chunk.js",
+    "main.js.map": "/climate-website/static/js/main.bf33ca7f.chunk.js.map",
     "runtime-main.js": "/climate-website/static/js/runtime-main.0629fcad.js",
     "runtime-main.js.map": "/climate-website/static/js/runtime-main.0629fcad.js.map",
     "static/css/2.c061d0aa.chunk.css": "/climate-website/static/css/2.c061d0aa.chunk.css",
-    "static/js/2.47ed6837.chunk.js": "/climate-website/static/js/2.47ed6837.chunk.js",
-    "static/js/2.47ed6837.chunk.js.map": "/climate-website/static/js/2.47ed6837.chunk.js.map",
+    "static/js/2.d55d0ddb.chunk.js": "/climate-website/static/js/2.d55d0ddb.chunk.js",
+    "static/js/2.d55d0ddb.chunk.js.map": "/climate-website/static/js/2.d55d0ddb.chunk.js.map",
     "index.html": "/climate-website/index.html",
-    "precache-manifest.9c1fb9639eb65c0d83f66bb37e3efbb2.js": "/climate-website/precache-manifest.9c1fb9639eb65c0d83f66bb37e3efbb2.js",
+    "precache-manifest.fdcd34d71ebc4fb301777697a33524ca.js": "/climate-website/precache-manifest.fdcd34d71ebc4fb301777697a33524ca.js",
     "service-worker.js": "/climate-website/service-worker.js",
     "static/css/2.c061d0aa.chunk.css.map": "/climate-website/static/css/2.c061d0aa.chunk.css.map",
-    "static/css/main.fcd00adc.chunk.css.map": "/climate-website/static/css/main.fcd00adc.chunk.css.map",
+    "static/css/main.33b3848f.chunk.css.map": "/climate-website/static/css/main.33b3848f.chunk.css.map",
     "static/media/SiggeFossilaBranslen.png": "/climate-website/static/media/SiggeFossilaBranslen.3cb3e5a0.png",
     "static/media/SiggeGlacier.png": "/climate-website/static/media/SiggeGlacier.b68e6458.png",
     "static/media/SiggeGlobalTemperatur.png": "/climate-website/static/media/SiggeGlobalTemperatur.0c3b018a.png",
@@ -28,8 +28,8 @@
   "entrypoints": [
     "static/js/runtime-main.0629fcad.js",
     "static/css/2.c061d0aa.chunk.css",
-    "static/js/2.47ed6837.chunk.js",
-    "static/css/main.fcd00adc.chunk.css",
-    "static/js/main.28042dc5.chunk.js"
+    "static/js/2.d55d0ddb.chunk.js",
+    "static/css/main.33b3848f.chunk.css",
+    "static/js/main.bf33ca7f.chunk.js"
   ]
 }

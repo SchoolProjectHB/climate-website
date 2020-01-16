@@ -5,6 +5,9 @@
     --mainWhite: #ffffff;
     --mainBlue: #007bff;
 } */
+body{
+
+}
 
 .climateButton {
   background: #d6e1e3;
@@ -201,5 +204,16 @@ h3 {
 }
 
 .logo{
-  width: 9%;    
+  width: 9%; }
+
+.boxsigge{
+  margin: 30px;
+}
+
+.navbar{
+  margin-top:0px;
+}
+
+.divlogo{
+  margin-top: 20px;
 }
