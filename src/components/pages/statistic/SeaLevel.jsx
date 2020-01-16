@@ -4,7 +4,7 @@ import "semantic-ui-css/semantic.min.css";
 import siggefossil from "./statistic-images/SiggeHavsnivaer.png";
 import seaimage from "./statistic-images/seaimage.png";
 
-class App extends Component {
+class SeaLevel extends Component {
   state = {
     SeaLevelEmission: [],
     indexYear: 0
@@ -74,4 +74,4 @@ class App extends Component {
   }
 }
 
-export default App;
+export default SeaLevel;

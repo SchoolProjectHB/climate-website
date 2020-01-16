@@ -4,7 +4,7 @@ import "semantic-ui-css/semantic.min.css";
 import tempimage from "./statistic-images/tempimage.png";
 import siggetemp from "./statistic-images/SiggeGlobalTemperatur.png";
 
-class App extends Component {
+class GlobalTemp extends Component {
   state = {
     globalTempEmission: [],
     indexYear: 250
@@ -81,4 +81,4 @@ class App extends Component {
   }
 }
 
-export default App;
+export default GlobalTemp;

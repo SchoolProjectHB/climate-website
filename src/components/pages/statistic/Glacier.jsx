@@ -4,7 +4,7 @@ import "semantic-ui-css/semantic.min.css";
 import glacierimage from "./statistic-images/glacierimage.png";
 import siggefossil from "./statistic-images/SiggeGlacier.png";
 
-class App extends Component {
+class Glacier extends Component {
   state = {
     GlacierEmission: []
   };
@@ -79,4 +79,4 @@ class App extends Component {
   }
 }
 
-export default App;
+export default Glacier;

@@ -4,7 +4,7 @@ import "semantic-ui-css/semantic.min.css";
 import fossilimage from "./statistic-images/fossilimage.png";
 import siggefossil from "./statistic-images/SiggeFossilaBranslen.png";
 
-class App extends Component {
+class FossilFules extends Component {
   state = {
     FossilEmission: [],
     indexYear: 0
@@ -96,4 +96,4 @@ class App extends Component {
   }
 }
 
-export default App;
+export default FossilFules;
