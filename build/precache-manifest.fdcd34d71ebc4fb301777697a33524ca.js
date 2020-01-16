@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "6e0f963ccdd129412522819de423d184",
+    "revision": "c13ebc5eb5b066ca90c70ebb99ac4c76",
     "url": "/climate-website/index.html"
   },
   {
@@ -8,7 +8,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/climate-website/static/css/2.c061d0aa.chunk.css"
   },
   {
-    "revision": "75d06ad6f41b9f3620d6",
+    "revision": "34a8053e175cef30015b",
     "url": "/climate-website/static/css/main.33b3848f.chunk.css"
   },
   {
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/climate-website/static/js/2.d55d0ddb.chunk.js"
   },
   {
-    "revision": "75d06ad6f41b9f3620d6",
-    "url": "/climate-website/static/js/main.6dc4cf88.chunk.js"
+    "revision": "34a8053e175cef30015b",
+    "url": "/climate-website/static/js/main.bf33ca7f.chunk.js"
   },
   {
     "revision": "31da90484c9c115e1fd3",
