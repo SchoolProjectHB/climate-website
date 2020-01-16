@@ -20,7 +20,7 @@ class App extends Component {
       <div>
         <Navbar />
         <Switch>
-          <Redirect from= "/" exact to = "/start"></Redirect>
+          <Redirect from="/" exact to="/start"></Redirect>
           <Route path="/start" component={Start}/>
           <Route path="/statistic" component={Klimatforandringar}/>
           <Route path="/ordlista" component={Ordlista}/>
