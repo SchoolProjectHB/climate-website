@@ -19,11 +19,7 @@ class App extends Component {
       <div>
         <Navbar />
         <Switch>
-<<<<<<< HEAD
-          <Redirect from="/" exact to="/start"></Redirect>
-=======
         <Redirect from= "/climate-website" exact to = "/start"></Redirect>          
->>>>>>> 711ec93eb5b597f46948e2c73ea36c1fced0f901
           <Route path="/start" component={Start}/>
           <Route path="/statistic" component={Klimatforandringar}/>
         </Switch>
