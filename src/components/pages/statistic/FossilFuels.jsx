@@ -8,7 +8,7 @@ import siggefossil from "./SiggeFossilaBranslen.png";
 
 class App extends Component {
   state = {
-    CO2Emission: [],
+    FossilEmission: [],
     indexYear: 0
   };
 
@@ -16,7 +16,7 @@ class App extends Component {
     const url = "https://my.api.mockaroo.com/co2.json?key=8eb9e6f0";
     const response = await fetch(url);
     const data = await response.json();
-    this.setState({ CO2Emission: data });
+    this.setState({ FossilEmission: data });
   }
 
   render() {
@@ -90,7 +90,7 @@ class App extends Component {
                 <p className="descriptionCo2">co2</p>
 
                 <MyBarChart
-                  CO2Emission={this.state.CO2Emission}
+                  FossilEmission={this.state.FossilEmission}
                   onYearFilter={this.handleYearFilter}
                 ></MyBarChart>
 

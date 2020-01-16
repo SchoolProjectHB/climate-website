@@ -10,7 +10,7 @@ import siggefossil from "./SiggeGlacier.png";
 
 class App extends Component {
   state = {
-    CO2Emission: []
+    GlacierEmission: []
     //searchedYear:[],
     //indexYear: 0,
     //yearFrom: 0,
@@ -21,7 +21,7 @@ class App extends Component {
     const url = "https://my.api.mockaroo.com/glaciersize.json?key=8eb9e6f0";
     const response = await fetch(url);
     const data = await response.json();
-    this.setState({ CO2Emission: data });
+    this.setState({ GlacierEmission: data });
   }
 
   render() {
@@ -73,7 +73,7 @@ class App extends Component {
                 <h1>Statistik över glaciärernas storlek </h1>
         <p className="descriptionCo2">m</p>
                 <MyBarChartGlacier
-                  CO2Emission={this.state.CO2Emission}
+                  GlacierEmission={this.state.GlacierEmission}
                 ></MyBarChartGlacier>
                       <p className="descriptionYear">År</p>
 

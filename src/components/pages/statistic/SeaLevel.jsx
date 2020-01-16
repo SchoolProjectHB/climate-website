@@ -8,7 +8,7 @@ import seaimage from "./seaimage.png";
 
 class App extends Component {
   state = {
-    CO2Emission: [],
+    SeaLevelEmission: [],
     //searchedYear:[],
     indexYear: 0
     //yearFrom: 0,
@@ -19,7 +19,7 @@ class App extends Component {
     const url = "https://my.api.mockaroo.com/sealevel.json?key=8eb9e6f0";
     const response = await fetch(url);
     const data = await response.json();
-    this.setState({ CO2Emission: data });
+    this.setState({ SeaLevelEmission: data });
   }
 
   render() {
@@ -78,7 +78,7 @@ class App extends Component {
                 <p className="descriptionCo2">m</p>
 
                 <MyBarChartSeaLevel
-                  CO2Emission={this.state.CO2Emission}
+                  SeaLevelEmission={this.state.SeaLevelEmission}
                 ></MyBarChartSeaLevel>
                 <p className="descriptionYear">År</p>
               </div>

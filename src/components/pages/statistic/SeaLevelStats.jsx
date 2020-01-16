@@ -10,8 +10,8 @@ class MyBarChartSeaLevel extends Component {
 
 //};
     render() { 
-let co2 = this.props.CO2Emission; 
-if(co2 === undefined) return <p>There is no data </p>;
+let seaLevelData = this.props.SeaLevelEmission; 
+if(seaLevelData === undefined) return <p>There is no data </p>;
 
 //const COLORS = ['#0088FE', '#00C49F', '#FFBB28', '#FF8042'];
 
@@ -19,7 +19,7 @@ if(co2 === undefined) return <p>There is no data </p>;
           <React.Fragment>
 
             
-<LineChart width={1000} height={500} data={co2}
+<LineChart width={1000} height={500} data={seaLevelData}
             margin={{top: 5, right: 30, left: 20, bottom: 5}}>
        <XAxis dataKey="Time"/>
        <YAxis/>

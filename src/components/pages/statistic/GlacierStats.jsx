@@ -9,8 +9,8 @@ class MyBarChartGlacier extends Component {
 
 //};
     render() { 
-let dataChartGlacier = this.props.CO2Emission; 
-if(dataChartGlacier === undefined) return <p>There is no data </p>;
+let dataGlacier = this.props.GlacierEmission; 
+if(dataGlacier === undefined) return <p>There is no data </p>;
 
 
 //const COLORS = ['#0088FE', '#00C49F', '#FFBB28', '#FF8042'];
@@ -19,7 +19,7 @@ if(dataChartGlacier === undefined) return <p>There is no data </p>;
           <React.Fragment>
 
             
-<LineChart width={1000} height={600} data={dataChartGlacier}
+<LineChart width={1000} height={600} data={dataGlacier}
             margin={{top: 5, right: 30, left: 20, bottom: 5}}>
        <XAxis dataKey="Year"/>
        <YAxis/>

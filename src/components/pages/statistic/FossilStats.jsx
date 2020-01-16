@@ -10,8 +10,8 @@ class MyBarChart extends Component {
 
 //};
     render() { 
-let co2 = this.props.CO2Emission; 
-if(co2 === undefined) return <p>There is no data...! </p>;
+let fossilData = this.props.FossilEmission; 
+if(fossilData === undefined) return <p>There is no data...! </p>;
 
 //const COLORS = ['#0088FE', '#00C49F', '#FFBB28', '#FF8042'];
 
@@ -19,7 +19,7 @@ if(co2 === undefined) return <p>There is no data...! </p>;
           <React.Fragment>
             
 <LineChart width={1000} 
-height={500} data={co2}
+height={500} data={fossilData}
 margin={{top: 5, 
 right: 30, 
 left: 20, 

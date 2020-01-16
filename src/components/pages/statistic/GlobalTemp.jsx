@@ -10,7 +10,7 @@ import siggetemp from "./SiggeGlobalTemperatur.png";
 
 class App extends Component {
   state = {
-    globalEmission: [],
+    globalTempEmission: [],
     //searchedYear:[],
     indexYear: 250
     //yearFrom: 0,
@@ -22,7 +22,7 @@ class App extends Component {
     const response = await fetch(url);
     const data = await response.json();
     this.setState({
-      globalEmission: data.sort((a, b) =>
+      globalTempEmission: data.sort((a, b) =>
         a.Year > b.Year ? 1 : b.Year > a.Year ? -1 : 0
       )
     });
@@ -70,7 +70,7 @@ class App extends Component {
         <p className="descriptionCo2">C°</p>
 
                 <MyBarChartGlobal
-                  globalEmission={this.state.globalEmission}
+                  globalTempEmission={this.state.globalTempEmission}
                   onYearFilter={this.handleYearFilter}
                 ></MyBarChartGlobal>
                       <p className="descriptionYear">År</p>

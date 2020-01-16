@@ -9,8 +9,8 @@ class MyBarChartGlobal extends Component {
 
 //};
     render() { 
-let global = this.props.globalEmission; 
-if(global === undefined) return <p>There is no data </p>;
+let globalTemp = this.props.globalTempEmission; 
+if(globalTemp === undefined) return <p>There is no data </p>;
 
 //const COLORS = ['#0088FE', '#00C49F', '#FFBB28', '#FF8042'];
 
@@ -18,7 +18,7 @@ if(global === undefined) return <p>There is no data </p>;
           <React.Fragment>
 
             
-<LineChart width={1000} height={600} data={global}
+<LineChart width={1000} height={600} data={globalTemp}
             margin={{top: 5, right: 30, left: 20, bottom: 5}}>
        <XAxis dataKey="Year"/>
        <YAxis/>
