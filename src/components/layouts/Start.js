@@ -8,7 +8,7 @@ class Start extends Component {
       <div class="containerStart">
         <img src={startsida} width="100%" alt="peaceful town" />
         <Link to="/statistic/FossilFuels">
-          <button className="test-knapp">
+          <button className="button">
             Klicka här för att komma igång!
           </button>
         </Link>
