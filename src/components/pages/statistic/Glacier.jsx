@@ -35,17 +35,17 @@ class App extends Component {
                 <p>
                   En glaciär är en stor massa av is och snö, som innehåller jordens största 
                   resurs av sötvatten. Cirka tio procent av jordens yta är täckt av glaciärer, 
-                  och dessa finns i alla världsdelar förutom från Australien.
+                  och dessa finns i alla världsdelar förutom i Australien.
                   
                   <br></br>
                   <br></br>
                   Hela 97% av glaciärerna finns på Antarktis och Grönland. På grund av ökad global 
-                  temperatur börjar glaciärerna att smälta. Det finns totalt sex olika glaciärer.
+                  temperatur börjar glaciärerna att smälta.
                   <br></br>
                   <br></br>
                   
-                  Om alla glaciärer på Grönland och Antarktis skulle smälta stiger havsnivån ungefär 80 meter.
-                  Det skulle innebära att städer som New York och Tokyo skulle hamna under vatten.
+                  Om alla glaciärer på Grönland och Antarktis skulle smälta stiger havsnivån med ungefär 80 meter.
+                  Det skulle innebära att många städer, exempelvis New York och Tokyo, skulle hamna under vatten.
                 </p>
             <img src={glacierimage} class="glacierimage" alt="clothes hanging to dry"></img>
 

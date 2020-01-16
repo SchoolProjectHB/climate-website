@@ -29,7 +29,7 @@ class App extends Component {
                 <h4>Fossila utsläpp</h4>
                 <p>
                   Bensin, diesel, olja, naturgas och kol är exempel på fossila
-                  bränslen. Dessa används till fordon, kol och oljekraftverk.
+                  bränslen. Dessa används bland annat till fordon, kol och oljekraftverk.
                   När fossila bränslen används släpper de ut gaser som skadar
                   luften.
                   <br></br>

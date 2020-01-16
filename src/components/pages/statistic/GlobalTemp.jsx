@@ -44,9 +44,9 @@ class App extends Component {
                  <br></br> 
                  <br></br> 
                  
-                 Konsekvenserna av att den globala temperauren ökar är allvarliga. Bland annat
-                 är en risk att vissa städer kan hamna under vatten, eller att vissa djurarter (så som isbjörnarna)
-                 utrotas. {" "}
+                 Konsekvenserna av att den globala temperaturen ökar är allvarliga. Bland annat
+                 är en risk att vissa djurarter, så som isbjörnarna, utrotas. Detta beror på att glaciärerna de bor på 
+                 smälter bort. {" "}
                 </p>
             <img src={tempimage} class="tempimage" alt="clothes hanging to dry"></img>
 

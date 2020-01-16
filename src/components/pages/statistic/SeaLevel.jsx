@@ -34,8 +34,7 @@ class App extends Component {
                   Konsekvensen av att medeltemperaturen ökar, är att glaciärerna
                   smälter. Om alla glaciärer på Grönland och Antarktis skulle
                   smälta stiger havsnivån ungefär 80 meter. Det innebär att
-                  många städer, som New York eller Tokyo, skulle hamna under
-                  vatten.
+                  många städer skulle hamna under vatten.
                   <br></br>
                   <br></br>
                   Statistik på den globala medelhavsnivån uppdateras varannan
@@ -51,7 +50,7 @@ class App extends Component {
 
             <div className="box col-sm">
               <h4>Ordlista</h4>
-              <b>Global Uppvärmning:</b>
+              <b>Global uppvärmning:</b>
               <p>En ökning av jordens medeltemperatur. </p>
               <b>Glaciär:</b>
               <p>En stor massa av is och snö.</p>
