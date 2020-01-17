@@ -9,7 +9,7 @@ import {
   Legend
 } from "recharts";
 
-class MyBarChart extends Component {
+class MyBarChartFossil extends Component {
   render() {
     let fossilData = this.props.FossilEmission;
     if (fossilData === undefined) return <p>There is no data...! </p>;
@@ -61,4 +61,4 @@ class MyBarChart extends Component {
   }
 }
 
-export default MyBarChart;
+export default MyBarChartFossil;
