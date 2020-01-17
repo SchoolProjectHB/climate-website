@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import MyBarChartGlacier from "./GlacierStats";
+import MyBarChartGlacier from "./MyBarChartGlacier";
 import "semantic-ui-css/semantic.min.css";
 import glacierimage from "./statistic-images/glacierimage.png";
 import siggefossil from "./statistic-images/SiggeGlacier.png";

@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import MyBarChartGlobal from "./GlobalStats";
+import MyBarChartGlobal from "./MyBarChartGlobal";
 import "semantic-ui-css/semantic.min.css";
 import tempimage from "./statistic-images/tempimage.png";
 import siggetemp from "./statistic-images/SiggeGlobalTemperatur.png";

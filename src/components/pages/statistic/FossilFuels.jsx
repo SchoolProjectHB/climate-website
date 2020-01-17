@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import MyBarChart from "./FossilStats";
+import MyBarChart from "./MyBarChartFossil";
 import "semantic-ui-css/semantic.min.css";
 import fossilimage from "./statistic-images/fossilimage.png";
 import siggefossil from "./statistic-images/SiggeFossilaBranslen.png";

@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "c13ebc5eb5b066ca90c70ebb99ac4c76",
+    "revision": "98d1dbdb775a49dff2b4d99ac9011da7",
     "url": "/climate-website/index.html"
   },
   {
@@ -8,16 +8,16 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/climate-website/static/css/2.c061d0aa.chunk.css"
   },
   {
-    "revision": "34a8053e175cef30015b",
-    "url": "/climate-website/static/css/main.33b3848f.chunk.css"
+    "revision": "4788458a4d5b4c7fe033",
+    "url": "/climate-website/static/css/main.7529883e.chunk.css"
   },
   {
     "revision": "411ceba3c8124da82d10",
     "url": "/climate-website/static/js/2.d55d0ddb.chunk.js"
   },
   {
-    "revision": "34a8053e175cef30015b",
-    "url": "/climate-website/static/js/main.bf33ca7f.chunk.js"
+    "revision": "4788458a4d5b4c7fe033",
+    "url": "/climate-website/static/js/main.acf0b109.chunk.js"
   },
   {
     "revision": "31da90484c9c115e1fd3",
@@ -60,6 +60,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/climate-website/static/media/brand-icons.e8c322de.woff2"
   },
   {
+    "revision": "30703d26517d842f240391680dcb5aee",
+    "url": "/climate-website/static/media/firstpage.30703d26.gif"
+  },
+  {
     "revision": "9c74e172f87984c48ddf5c8108cabe67",
     "url": "/climate-website/static/media/flags.9c74e172.png"
   },
@@ -70,10 +74,6 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "f98d788a6c98553b9dad09755f7ad585",
     "url": "/climate-website/static/media/glacierimage.f98d788a.png"
-  },
-  {
-    "revision": "45b90801b43633367903d16fce0b05b9",
-    "url": "/climate-website/static/media/homepage8.45b90801.gif"
   },
   {
     "revision": "0ab54153eeeca0ce03978cc463b257f7",
