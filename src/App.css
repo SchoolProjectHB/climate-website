@@ -181,9 +181,11 @@ h3 {
 .descriptionYear {
   text-align: right;
   margin-top: -4rem;
+  margin-right: 2rem;
   font-weight: bold;
   text-decoration: underline;
 }
+
 
 .logo {
   width: 9%;

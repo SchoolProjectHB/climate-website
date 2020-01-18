@@ -4,6 +4,7 @@ import { Link } from "react-router-dom";
 
 function Navbar() {
   return (
+   
       <div className="divlogo">
         <Link to="/climate-website">
           <img src={logo} class="logo" alt="logo" />
