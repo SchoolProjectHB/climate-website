@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "/climate-website/static/css/main.7529883e.chunk.css",
-    "main.js": "/climate-website/static/js/main.acf0b109.chunk.js",
-    "main.js.map": "/climate-website/static/js/main.acf0b109.chunk.js.map",
+    "main.css": "/climate-website/static/css/main.d7e8a051.chunk.css",
+    "main.js": "/climate-website/static/js/main.23ef15fa.chunk.js",
+    "main.js.map": "/climate-website/static/js/main.23ef15fa.chunk.js.map",
     "runtime-main.js": "/climate-website/static/js/runtime-main.0629fcad.js",
     "runtime-main.js.map": "/climate-website/static/js/runtime-main.0629fcad.js.map",
     "static/css/2.c061d0aa.chunk.css": "/climate-website/static/css/2.c061d0aa.chunk.css",
     "static/js/2.d55d0ddb.chunk.js": "/climate-website/static/js/2.d55d0ddb.chunk.js",
     "static/js/2.d55d0ddb.chunk.js.map": "/climate-website/static/js/2.d55d0ddb.chunk.js.map",
     "index.html": "/climate-website/index.html",
-    "precache-manifest.28ff139a348809c0c8fb0e0281b01087.js": "/climate-website/precache-manifest.28ff139a348809c0c8fb0e0281b01087.js",
+    "precache-manifest.904f38f205ae25c47611852b6881bb3a.js": "/climate-website/precache-manifest.904f38f205ae25c47611852b6881bb3a.js",
     "service-worker.js": "/climate-website/service-worker.js",
     "static/css/2.c061d0aa.chunk.css.map": "/climate-website/static/css/2.c061d0aa.chunk.css.map",
-    "static/css/main.7529883e.chunk.css.map": "/climate-website/static/css/main.7529883e.chunk.css.map",
+    "static/css/main.d7e8a051.chunk.css.map": "/climate-website/static/css/main.d7e8a051.chunk.css.map",
     "static/media/SiggeFossilaBranslen.png": "/climate-website/static/media/SiggeFossilaBranslen.3cb3e5a0.png",
     "static/media/SiggeGlacier.png": "/climate-website/static/media/SiggeGlacier.b68e6458.png",
     "static/media/SiggeGlobalTemperatur.png": "/climate-website/static/media/SiggeGlobalTemperatur.0c3b018a.png",
@@ -29,7 +29,7 @@
     "static/js/runtime-main.0629fcad.js",
     "static/css/2.c061d0aa.chunk.css",
     "static/js/2.d55d0ddb.chunk.js",
-    "static/css/main.7529883e.chunk.css",
-    "static/js/main.acf0b109.chunk.js"
+    "static/css/main.d7e8a051.chunk.css",
+    "static/js/main.23ef15fa.chunk.js"
   ]
 }
