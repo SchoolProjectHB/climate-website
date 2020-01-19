@@ -137,13 +137,15 @@ h3 {
 
 .fossilimage {
   width: 70%;
+  margin-top: 5rem;
   display: block;
   margin-left: auto;
-  margin-right: auto;
+  margin-right: auto; 
 }
 
 .glacierimage {
   width: 70%;
+  margin-top: 6rem;
   display: block;
   margin-left: auto;
   margin-right: auto;
@@ -151,6 +153,7 @@ h3 {
 
 .tempimage {
   width: 70%;
+  margin-top: 12rem;
   display: block;
   margin-left: auto;
   margin-right: auto;
@@ -158,6 +161,7 @@ h3 {
 
 .seaimage {
   width: 70%;
+  margin-top: 9rem;  
   display: block;
   margin-left: auto;
   margin-right: auto;
