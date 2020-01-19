@@ -23,7 +23,7 @@ class FossilFules extends Component {
         <div className="row">
           <div className="box col-sm">
             <div>
-              <h4>Fossila utsläpp</h4>
+              <h4>Fossila bränslen</h4>
               <p>
                 Bensin, diesel, olja, naturgas och kol är exempel på fossila
                 bränslen. Dessa används bland annat till fordon, kol och
@@ -45,7 +45,7 @@ class FossilFules extends Component {
           </div>
 
           <div className="box col-sm">
-            <h4>Vad är fossila bränslen?</h4>
+            <h4>Ordlista</h4>
             <b>Gasbränsle:</b>
             <p>
               Gasbränslen är bränslen som är i gasform. Exempel på gasbränslen
