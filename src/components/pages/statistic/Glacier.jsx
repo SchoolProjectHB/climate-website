@@ -51,11 +51,17 @@ class Glacier extends Component {
             <p>Balansen mellan ismassor som växer och ismassor som smälter.</p>
             <b>Olika typer av glaciärer:</b>
             <p>
-              Det finns olika typer av glaciärer, så som toppglaciär, isfält,
-              nischglaciär eller inlandsis.{" "}
+              Det finns olika typer av glaciärer.
             </p>
+            <p>Toppglaciär - glaciär som finns på bergstopp. </p> 
+            <p>Nischglaciär - glaciär som ligger i en gryta eller skål. </p>
+            <p>Isfält - en stor glaciär flytandes åt flera håll. </p>
+            <p>Inlandsis - ett mycket stort isfält som täcker hela kontinenter. </p>
+            <p>Dalglaciär – en glaciär som flyter fram längs en dal. </p>
+            <p>Piedmontglaciär – en glaciär som rinner ut och breder ut sig på låglandområden
+               (ett sammanhängande landområde som inte ligger högre än 200 meter över havet).</p>
 
-            <p></p>
+            
           </div>
 
           <div className="boxsigge col-sm">

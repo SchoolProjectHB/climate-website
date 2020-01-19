@@ -50,6 +50,12 @@ class GlobalTemp extends Component {
 
           <div className="box col-sm">
             <h4>Ordlista</h4>
+            <b> Atmosfär: </b>
+            <p>Runt jorden finns ett lager av gaser som kallas för atmosfär. 
+              Atmosfären är det som finns mellan oss på jordytan och världsrymden.</p>
+            <b>Växthuseffekten: </b>
+            <p>Växthusefftekten kallas det som innebär att växthusgaser i atmosfären håller kvar en
+            del av solvärmen och gör att jorden håller en temperatur som vi han leva i. </p>
             <b>Växthusgas:</b>
             <p>
               En gas i atmosfären som fångar in värme. Exempel på växthusgaser

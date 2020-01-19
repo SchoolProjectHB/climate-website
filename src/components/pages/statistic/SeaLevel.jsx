@@ -40,6 +40,9 @@ class SeaLevel extends Component {
 
           <div className="box col-sm">
             <h4>Ordlista</h4>
+            <b>Havsnivå:</b>
+            <p>Havsytan, havets nivå, är en nollpunkt som man hänvisar till 
+              när det talas om höjder, till exempel meter över havet.</p>
             <b>Global uppvärmning:</b>
             <p>En ökning av jordens medeltemperatur. </p>
             <b>Glaciär:</b>
